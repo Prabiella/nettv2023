@@ -18,6 +18,7 @@
 
 
     <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
     <link rel="stylesheet" type="text/css" href="css/iR.css">
@@ -555,7 +556,7 @@ Si deseas más información del Sistema de bloqueos puedes. Comunícate al telé
   <div class="row box_videos">
     <div class="col-lg-3 col-md-3 col-sm-6 col-12 video_faq">
       <label for="">¿Cómo hacer una recarga test?</label>
-      <button href="" data-toggle="modal" data-target="#video1" class="video-btn" data-src="https://www.youtube.com/embed/GRxofEmo3HA">
+        <button type="button" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/YxHSASX3Hg0?si=n0PBHw2y9Gfl__A3" data-bs-target="#video1">
         <img src="videos/1.Comohacerunarecarga_still.png" style="width: 100%;" alt="">
       </button>
       
@@ -653,24 +654,44 @@ Si deseas más información del Sistema de bloqueos puedes. Comunícate al telé
   </div> -->
 
 
+<!-- Modal -->
+<div class="modal fade" id="video1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      
+      <div class="modal-body">
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+        </button>        
+        <!-- 16:9 aspect ratio -->
+<div class="ratio ratio-16x9">
+  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+</div>
+        
+        
+      </div>
+
+    </div>
+  </div>
+</div> 
+
 
   <div class="modal fade" id="video1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <iframe class="videos_faqus" id="video" width="200px" height="315" src="" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+              </button>        
+              <!-- 16:9 aspect ratio -->
+      <div class="ratio ratio-16x9">
+        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+      </div>
                 
-                <div class="">
+                <!--<div class="">
                     <video class="videos_faqus" src="" id="video" controls disablePictureInPicture
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></video>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -803,54 +824,15 @@ Si deseas más información del Sistema de bloqueos puedes. Comunícate al telé
 
 </script> -->
 
-
-<script>
-  $(document).ready(function() {
-    var $videoSrc;
-
-    $(".video-btn").click(function() {
-      // Obtén el data-src específico del botón clicado
-      $videoSrc = $(this).attr("data-src");
-      console.log("Botón clicado: " + $videoSrc);
-    });
-
-    $("#video1").on("shown.bs.modal", function(e) {
-      console.log("Modal abierto: " + $videoSrc);
-
-      // Configura la fuente del video para reproducir automáticamente sin mostrar videos relacionados
-      $("#video").attr(
-        "src",
-        $videoSrc + "?autoplay=1&showinfo=0&modestbranding=1&rel=0&mute=1"
-      );
-    });
-
-    $("#video1").on("hide.bs.modal", function(e) {
-      // Detén la reproducción del video cuando se cierra el modal
-      $("#video").attr("src", "");
-    });
-  });
-</script>
-
-
-    <script>
-        (function() {
-          const headings = document.querySelectorAll('h2')
-          
-          Array.prototype.forEach.call(headings, heading => {
-            let btn = heading.querySelector('button')
-            let target = heading.nextElementSibling
-            
-            btn.onclick = () => {
-              let expanded = btn.getAttribute('aria-expanded') === 'true' || false
-              
-              btn.setAttribute('aria-expanded', !expanded)
-              target.hidden = expanded    
-            }
-          })
-        })()
-    </script>
    
    <script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "mu7FQ5EoOF");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
   
+
+   <!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js'></script>
+<script  src="js/script.js"></script>
+
   </body>
 </html>
