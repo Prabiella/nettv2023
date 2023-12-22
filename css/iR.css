@@ -1,0 +1,2364 @@
+@supports (-webkit-touch-callout: none) {
+	/*-------INICIA ESTILOS NACHO---------*/
+a[rel="external"] {
+	color:black;
+	font:110% "Times New Roman";
+	background: white;
+	padding-right: 0.1em;
+	z-index: 48;
+  }
+  
+  a[rel="external"]:hover,
+  a[rel="external"]:focus,
+  a[rel="external"]:active { z-index: 49; }
+  
+  a[rel="external"] .ol,
+  a[rel="external"]:link .ol {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;  
+	z-index: 50; 
+  }
+  
+  a[rel="external"]:focus .ol,
+  a[rel="external"]:hover .ol {
+	float: right;
+	background: #fafafa;
+	width: auto;
+	height: auto;
+	border: solid 1px #fafafa;
+	margin-left: 0.5em; 
+	margin-top: 0.3em;
+	padding: 0.4em;
+	overflow: visible;
+	-moz-border-radius: 0.4em; 
+	-webkit-border-radius: 0.4em; 
+	border-radius: 0.4em;
+	box-shadow: 0.3em 0.3em 0.4em grey;
+	z-index:51; 
+  }
+  
+  
+	a[rel="external"]:focus .ol:before,
+	a[rel="external"]:hover .ol:before {
+		content:"";
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-top: 1px solid #fafafa; /*color del rectangulo*/
+		border-right: 20px solid #fafafa; /*color del triangulo*/
+		border-bottom: 15px solid transparent;
+		margin: 0 0 0 -27px;
+	}
+  
+  ul{  list-style:none; }
+  
+  /*------------------*/
+  a.iR_enlace{
+	  color: #C83037;
+  }
+  hr{
+	  background-size: #000;
+	  width: 90%
+  }
+  
+  .iR_fondo{
+	  
+	  background-size: 100% 100%;
+	  color: #FFF;
+  }
+  .fondo_title {
+	  background-image: url(../img/pleca_titulo.svg);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+  }
+  
+  .iR_texto{
+	  color: #FFF;
+	  font-size: 60px;
+	  font-weight: 900;
+	  line-height: 70px;
+	  text-shadow: 0px 5px 6px #00000096;
+  }
+  .iR_peso{
+	  font-size: 63px;
+	  font-weight: 900;
+	  line-height: 7rem;
+  }
+  .iR_costo{
+	  font-size: 90px;
+	  font-weight: 900;
+  }
+  
+  .iR_info{
+	  font-size: 33px;
+	  font-weight: 900;
+	  line-height: 40px;
+	  text-align: left;
+	  padding-top: 1rem;
+  }
+  .iR_contenedor{
+	  text-align: center;
+  }
+  .iR_contrata{
+	  border: 5px solid #1C8FA0;
+	  border-radius: 25px;
+	  color: #FFF;
+	  font-size: 35px;
+	  text-shadow: 0px 5px 6px #00000096;
+	  font-weight: 900;
+	  padding: 1rem;
+  }
+  .iR_contrata:hover{
+	  text-decoration: none;
+	  color: #FFF;
+	  background:#C83037;
+  }
+  .iR_cobertura{
+	  color: #FFF;
+	  text-align: center;
+	  font-size: 16px;
+	  padding-bottom: 1rem;
+  }
+  /*
+  .iR_decides{
+	  background: #E82C3A;
+	  color: #FFFFFF;
+	  padding: 0.5rem 0rem;
+  }
+  */
+  .iR_videos{
+	  background: #EFEEF0; 
+	  color: #1C2232;
+	  text-align: center;
+	  font-family: 'Arial';
+	  font-size: 22px;
+  }
+  .iR_videos1{
+	  background: #EFEEF0; 
+	  color: #1C2232;
+	  text-align: center;
+	  font-family: 'Arial';
+	  font-size: 16px;
+  }
+  /*
+  .iR_ver{
+	  font-size: 30px;
+	  font-weight: 900;
+	  text-shadow: 0px 5px 6px #00000096;
+	  text-align: center;
+	  color: #EFE4BA;
+  }
+  */
+  .iR_dudas{
+	  font-size: 30px;
+	  font-weight: 900;
+	  text-shadow: 0px 5px 6px #00000096;
+	  text-align: center;
+	  color: white;
+  }
+  .dudas_video {
+	  font-size: 20px;
+  }
+  .triangle_red{
+	  clip-path: polygon(100% 0, 0 0, 50% 100%);
+	  background-color: #E82C3A;
+	  width: 20px;
+	  height: 10px;
+	  right: 50%;
+	  color:black;
+	  font:110% "Times New Roman";
+	  background: white;
+	  padding-right: 0.1em;
+	  z-index: 48;
+	}
+	
+	a[rel="external"]:hover,
+	a[rel="external"]:focus,
+	a[rel="external"]:active { z-index: 49; }
+	
+	a[rel="external"] .ol,
+	a[rel="external"]:link .ol {
+	  position: absolute;
+  
+  }
+  
+  .iR_canales, .iR_listas{
+	  display: inline-block;
+  }
+  
+  .iR_sin-costo{
+	  text-align: center;
+  }
+  
+  
+  .iR_abierta{
+	  font-size: 30px;
+	  font-weight: 900;
+  }
+  
+  .iR_recargas{
+	  font-size: 20px;
+	  font-weight: 900;
+  }
+  .iR_alocalidad{
+	  font-size: 14px;
+  }
+  .iR_audio{
+	  font-size: 30px;
+	  font-weight: 900;
+  }
+  .iR_suscripcion{
+	  font-size: 28px;
+	  font-weight: 900;
+	  padding-top: 2rem;
+  }
+  /* Diego Pacheco vvvvvvvvvvvvvvvv */
+  .iR_box-bajo{
+	  background: #D73D8D;
+	  color: #FFF;
+	  width: 100%;
+	  font-size: 0.6rem;
+	  line-height: 20px;
+	  padding: 0%;
+  }
+  /* Diego Pacheco ^^^^^^^^^^^^^^^^ */
+  
+  .iR_incluye{
+	  background:#C83037;
+	  padding: 10px;
+	  width:350px;
+	  margin-bottom: 0rem;
+	  font-size: 14px;
+  }
+  span.iR_ocultar{
+  position: absolute;
+  left: -90000px;
+  }
+  
+  .iR_mapa{
+	  color: #000;
+	  font-size: 16px;
+  }
+  .iR_mapa:hover{
+	  color: #C83036;
+  }
+  .iR_site-map{
+	  margin: 1.5rem;
+  }
+  .iR_img-fallas{
+	  border: none;
+  }
+  .app_nettv {
+	  background: transparent linear-gradient(180deg, #C9C9C9 0%, #FDFCFE 100%) 0% 0% no-repeat padding-box;
+	  opacity: 1;
+	  text-align: center;
+	  color: #1C2232;
+	  padding: 20px;
+  }
+  .logos_store {
+	  width: 100px;
+  }
+  .logos_store_f {
+	  width: 80px;
+	  padding-left: 0;
+  }
+  .termycond {
+	  text-align: center;
+	  background: #2DB8BF;
+	  height: 30px;
+	  font-family: 'Arial';
+	  color: white;
+	  text-decoration: underline;
+  }
+  h2.text-pqt-base {
+	  font-family: 'Arial';
+	  font-size: 26px;
+	  text-align: center;
+  }
+  p.card-text.precio-base {
+	  font-family: 'Arial-Black';
+	  font-size: 13px;
+  }
+  #paq_base {
+	  background: #EFEFEF;
+  }
+  .paq_base2 {
+	  background: #EFEFEF;
+  }
+  .box-chica {
+	  margin-left: 310px;
+  }
+  .card-body{
+	  padding-top: 67px;
+  }
+  .termycond2{
+	  text-align: center;
+	  font-family: 'Arial-Bold';
+	  font-size: 13px;
+	  margin-top: 15px;
+	  color: #1C2232;
+  }
+  .text-termycond {
+	  color: #1C2232;
+  }
+  .carousel-princ {
+	  margin-left: -15px;
+	  width: 103%!important;
+  }
+  
+  
+  /*---AJUSTES HOME ---*/
+  .container-canales {
+	  color: white;
+  }
+  .container-canales h3 {
+	  text-align: center;
+  }
+  
+  .container-logos img {
+	  width: 13vmin;
+  }
+  .categoria-canales {
+	  font-size: 12px;
+  }
+  .container-categorias {
+	  margin: 60px 0px;
+  }
+  .container-tv-abierta {
+	background: rgb(247,247,247);
+background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
+	  text-align: center;
+	  border-radius: 12px;
+	  -webkit-box-shadow: 0px 4px 9px 2px #0a0a0a5d; 
+	  box-shadow: 0px 4px 9px 2px #0a0a0a5d;
+	  width: 90%;
+  }
+  #title-sextreme {
+	  margin-top: 60px;
+  }
+  #tyc-banner {    
+	  align-self: end;
+	  padding-bottom: 3em;
+  }
+  
+  /*-------------BANER--------------*/
+  .image_full{
+	  display:block;
+	  width: 100%;
+	 }
+   
+	.image_mobile{
+	 display:none !important;
+	 width: 100%;
+	}
+  
+	/*---Guias Usuario----*/
+  
+	.guias {
+	  background-color: #EFEEF0;
+	  border: 1px solid #EFEEF0;
+	  color: #1C2232;
+	  padding: 5px;
+	  text-align: center;
+	  font-weight: bold;
+  }
+  .iR_box-bajo{
+	  background: #D53D8D;
+	  color: #FFF;
+	  width: 100%;
+	  font-size: 16px;
+	  line-height: 20px;
+	  padding: 2% 3% 1% 3%;
+  }
+  
+  .iR_box-bajo p a{
+	  background: #D53D8D;
+	  color: #FFF;
+	  width: 100%;
+	  font-size: 16px;
+  
+  
+  }
+  .iR_guias{
+	  background: #EFEEF0;
+	  color: #1C2232;
+	  font-size: 30px;
+	  text-align: center;
+	  padding: 0.5rem;
+  }
+  .iR_modem{
+	  width: 100%;
+  }
+  .iR_box-guia{
+	  margin-bottom: 10%;
+	  margin-top: 5rem;
+  }
+  
+  .iR_fijo-bajo{
+	  position: absolute;
+	  bottom: 0px;
+  }
+  .iR-box-modem{
+	  margin: 1rem 0rem;
+  }
+  
+  
+   
+   @media (max-width: 640px) and (min-width: 320px){
+	 .image_full{
+	  display:none !important;
+	 }
+   
+	 .image_mobile{
+	  display:block !important;
+	 }
+   
+  /*---
+  
+	  width: 0;
+	  height: 0;
+	  overflow: hidden;  
+	  z-index: 50; 
+	}*/
+	
+	a[rel="external"]:focus .ol,
+	a[rel="external"]:hover .ol {
+	  float: right;
+	  background: #fafafa;
+	  width: auto;
+	  height: auto;
+	  border: solid 1px #fafafa;
+	  margin-left: 0.5em; 
+	  margin-top: 0.3em;
+	  padding: 0.4em;
+	  overflow: visible;
+	  -moz-border-radius: 0.4em; 
+	  -webkit-border-radius: 0.4em; 
+	  border-radius: 0.4em;
+	  box-shadow: 0.3em 0.3em 0.4em grey;
+	  z-index:51; 
+	}
+	
+	
+	  a[rel="external"]:focus .ol:before,
+	  a[rel="external"]:hover .ol:before {
+		  content:"";
+		  position: absolute;
+		  width: 0;
+		  height: 0;
+		  border-top: 1px solid #fafafa; /*color del rectangulo*/
+		  border-right: 20px solid #fafafa; /*color del triangulo*/
+		  border-bottom: 15px solid transparent;
+		  margin: 0 0 0 -27px;
+	  }
+	
+	ul{  list-style:none; }
+	
+	/*------------------*/
+	a.iR_enlace{
+		color: #C83037;
+	}
+	hr{
+		background-size: #000;
+		width: 90%
+	}
+	
+	.iR_fondo{
+		
+		background-size: 100% 100%;
+		color: #FFF;
+	}
+	.fondo_title {
+		background-image: url(../img/pleca_titulo.svg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	.iR_texto{
+		color: #FFF;
+		font-size: 60px;
+		font-weight: 900;
+		line-height: 70px;
+		text-shadow: 0px 5px 6px #00000096;
+	}
+	.iR_peso{
+		font-size: 63px;
+		font-weight: 900;
+		line-height: 7rem;
+	}
+	.iR_costo{
+		font-size: 90px;
+		font-weight: 900;
+	}
+	
+	.iR_info{
+		font-size: 33px;
+		font-weight: 900;
+		line-height: 40px;
+		text-align: left;
+		padding-top: 1rem;
+	}
+	.iR_contenedor{
+		text-align: center;
+	}
+	.iR_contrata{
+		border: 5px solid #1C8FA0;
+		border-radius: 25px;
+		color: #FFF;
+		font-size: 35px;
+		text-shadow: 0px 5px 6px #00000096;
+		font-weight: 900;
+		padding: 1rem;
+	}
+	.iR_contrata:hover{
+		text-decoration: none;
+		color: #FFF;
+		background:#C83037;
+	}
+	.iR_cobertura{
+		color: #FFF;
+		text-align: center;
+		font-size: 16px;
+		padding-bottom: 1rem;
+	}
+	/*
+	.iR_decides{
+		background: #E82C3A;
+		color: #FFFFFF;
+		padding: 0.5rem 0rem;
+	}
+	*/
+	.iR_videos{
+		background: #EFEEF0; 
+		color: #1C2232;
+		text-align: center;
+		font-family: 'Arial';
+		font-size: 22px;
+	}
+	.iR_videos1{
+		background: #EFEEF0; 
+		color: #1C2232;
+		text-align: center;
+		font-family: 'Arial';
+		font-size: 16px;
+	}
+	/*
+	.iR_ver{
+		font-size: 30px;
+		font-weight: 900;
+		text-shadow: 0px 5px 6px #00000096;
+		text-align: center;
+		color: #EFE4BA;
+	}
+	*/
+	.iR_dudas{
+		font-size: 30px;
+		font-weight: 900;
+		text-shadow: 0px 5px 6px #00000096;
+		text-align: center;
+		color: white;
+	}
+	.dudas_video {
+		font-size: 20px;
+	}
+	.triangle_red{
+		clip-path: polygon(100% 0, 0 0, 50% 100%);
+		background-color: #E82C3A;
+		width: 20px;
+		height: 10px;
+		right: 50%;
+		position: absolute;
+	}
+	
+	.iR_canales, .iR_listas{
+		display: inline-block;
+	}
+	
+	.iR_sin-costo{
+		text-align: center;
+	}
+	
+	
+	.iR_abierta{
+		font-size: 30px;
+		font-weight: 900;
+	}
+	
+	.iR_recargas{
+		font-size: 20px;
+		font-weight: 900;
+	}
+	.iR_alocalidad{
+		font-size: 14px;
+	}
+	.iR_audio{
+		font-size: 30px;
+		font-weight: 900;
+	}
+	.iR_suscripcion{
+		font-size: 28px;
+		font-weight: 900;
+		padding-top: 2rem;
+	}
+	
+	.iR_incluye{
+		background:#C83037;
+		padding: 10px;
+		width:350px;
+		margin-bottom: 0rem;
+		font-size: 14px;
+	}
+	span.iR_ocultar{
+	position: absolute;
+	left: -90000px;
+	}
+	
+	.iR_mapa{
+		color: #000;
+		font-size: 16px;
+	}
+	.iR_mapa:hover{
+		color: #C83036;
+	}
+	.iR_site-map{
+		margin: 1.5rem;
+	}
+	.iR_img-fallas{
+		border: none;
+	}
+	.app_nettv {
+		background: transparent linear-gradient(180deg, #C9C9C9 0%, #FDFCFE 100%) 0% 0% no-repeat padding-box;
+		opacity: 1;
+		text-align: center;
+		color: #1C2232;
+		padding: 20px;
+	}
+	.logos_store {
+		width: 100px;
+	}
+	.logos_store_f {
+		width: 80px;
+		padding-left: 0;
+	}
+	.termycond {
+		text-align: center;
+		background: #2DB8BF;
+		height: 30px;
+		font-family: 'Arial';
+		color: white;
+		text-decoration: underline;
+	}
+	h2.text-pqt-base {
+		font-family: 'Arial';
+		font-size: 26px;
+		text-align: center;
+	}
+	p.card-text.precio-base {
+		font-family: 'Arial-Black';
+		font-size: 13px;
+	}
+	#paq_base {
+		background: #EFEFEF;
+	}
+	.paq_base2 {
+		background: #EFEFEF;
+	}
+	.box-chica {
+		margin-left: 310px;
+	}
+	.card-body{
+		padding-top: 67px;
+	}
+	.termycond2{
+		text-align: center;
+		font-family: 'Arial-Bold';
+		font-size: 13px;
+		margin-top: 15px;
+		color: #1C2232;
+	}
+	.text-termycond {
+		color: #1C2232;
+	}
+	.carousel-princ {
+		margin-left: -15px;
+		width: 103%!important;
+	}
+	
+	
+	/*---AJUSTES HOME ---*/
+	.container-canales {
+		color: white;
+	}
+	.container-canales h3 {
+		text-align: center;
+	}
+	
+	.container-logos img {
+		width: 16vmin;
+	}
+	.categoria-canales {
+		font-size: 12px;
+	}
+	.container-categorias {
+		margin: 60px 0px;
+	}
+	.container-tv-abierta {
+		background: rgb(255,255,255);
+		background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 100%);
+		text-align: center;
+		border-radius: 12px;
+		-webkit-box-shadow: 0px 4px 9px 2px #0a0a0a5d; 
+		box-shadow: 0px 4px 9px 2px #0a0a0a5d;
+		width: 90%;
+	}
+	#title-sextreme {
+		margin-top: 60px;
+	}
+	#tyc-banner {    
+		align-self: end;
+	}
+	
+	/*-------------BANER--------------*/
+	.image_full{
+		display:block;
+		width: 100%;
+	   }
+  
+	 
+	  .image_mobile{
+	   display:none !important;
+	   width: 100%;
+	  }
+  
+	 
+	 @media (max-width: 640px) and (min-width: 320px){
+	   .image_full{
+		display:none !important;
+	   }
+	 
+	   .image_mobile{
+		display:block !important;
+	   }
+	   
+	   .box-chica {
+		   margin-left: 85px;
+	   }
+	   .img-pago {
+		   width: 61px;
+	   }
+	   .content-logos{
+		   margin-left: -35px;
+	   }
+	   .iR_LP, .iR_listas {
+		text-align: center;
+		margin: 13px
+		 }
+  
+	 .iR_LP, .iR_listas {
+	  text-align: center;
+	  margin: 13px
+	 }
+  
+  }
+   
+   
+  /*-------------Faqs--------------*/
+  
+  .iR_content-faqs{
+	  margin: 4rem;
+  }
+  .iR_faqs-titulo{
+	  font-size: 30px;
+	  font-weight: 400;
+	  color: #000000;
+	  text-shadow: 0px 5px 6px #00000096;
+	  display: inline-block;
+	  padding-bottom: 1rem;
+  }
+  .iR-faq-subtitulo{
+	  font-size: 20px;
+	  color: #6463BF;
+	  font-weight: normal;	
+	  display: inline-block;
+  }
+  .videos_grid {
+	  padding: 20px;
+  }
+  .video_faq {
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 13px;
+	  margin-top: 30px;
+  }
+  .videos_faqus {
+	  width: 120vmin;
+	  height: auto;
+	  margin: 0;
+	  border: 2px solid #707070;
+	  border-radius: 7px;
+  }
+  .modal-video {
+	  max-width: fit-content;
+  }
+  .modal-content {
+	  background-color: transparent;
+	  border: none;
+	  width: fit-content;
+  }
+  .modal-dialog {
+	  width: 100%;
+  }
+  button.video-btn {
+	  border: none;
+	  background-color: transparent;
+  }
+  /*-------------Guias de Usuario--------------*/
+  .iR_box-bajo{
+	  background: #D73D8D;
+	  color: #FFF;
+	  width: 100%;
+	  font-size: 16px;
+	  line-height: 20px;
+	  padding: 2% 3% 1% 3%;
+  }
+  
+  .iR_box-bajo p a{
+	  background: #C83037;
+	  color: #FFF;
+	  width: 100%;
+	  font-size: 16px;
+  
+  
+  }
+  .iR_guias{
+	  background: #EFEEF0;
+	  color: #000000;
+	  font-size: 20px;
+	  /* text-shadow: 0px 5px 6px #00000096; */
+	  text-align: center;
+	  padding: 0.5rem;
+  }
+  .iR_modem{
+	  width: 100%;
+  }
+  .iR_box-guia{
+	  margin-bottom: 10%;
+	  margin-top: 5rem;
+  }
+  .iR_fijo-bajo{
+	  position: absolute;
+	  bottom: 0px;
+  }
+  .iR-box-modem{
+	  margin: 1rem 0rem;
+  }
+  
+  
+  /*-------------DERECHOS DE USUARIOS--------------*/
+  
+  .iR_texto-usuarios{
+	  font-size: 18px;
+	  font-weight: bold;
+	  color: #1C2232;
+	  margin-top: 5rem;
+	  padding: 0rem 4rem;
+	  margin-bottom: 5rem;
+  }
+  .iR_boton-conocela{
+	  font-size: 20px;
+	  color: #FFFFFF;
+	  background: #C83037;
+	  border: 4px solid #1C8FA0;
+	  padding: 5px 40px;
+	  border-radius: 10px;
+  
+  }
+  .iR_boton-conocela:hover{
+  color: #FFF;
+  } 
+  }
+  
+  /*-------------RESPONSIVE--------------*/
+  
+  @media only screen and (min-width: 992px) {
+	  .container-logos img {
+		  width: 13vmin !important;
+	  }
+  }
+  @media only screen and (min-width: 768px) {
+	  .iR_guias{
+		  background: #EFEEF0;
+		  color: #000000;
+		  font-size: 20px;
+		  /* text-shadow: 0px 5px 6px #00000096; */
+		  text-align: center;
+		  padding: 0.5rem;
+	  }
+  }
+  
+  
+  @media only screen and (max-width: 1100px) {
+  
+	
+	/*-------------Faqs--------------*/
+	
+	.iR_content-faqs{
+		margin: 4rem;
+	}
+	.iR_faqs-titulo{
+		font-size: 30px;
+		font-weight: 400;
+		color: #000000;
+		text-shadow: 0px 5px 6px #00000096;
+		display: inline-block;
+		padding-bottom: 1rem;
+	}
+	.iR-faq-subtitulo{
+		font-size: 20px;
+		color: #6463BF;
+		font-weight: normal;	
+		display: inline-block;
+	}
+	.videos_grid {
+		padding: 20px;
+	}
+	.video_faq {
+		text-align: center;
+		font-weight: bold;
+		font-size: 13px;
+		margin-top: 30px;
+	}
+	.videos_faqus {
+		width: 120vmin;
+		height: auto;
+		margin: 0;
+		border: 2px solid #707070;
+		border-radius: 7px;
+	}
+	.modal-video {
+		max-width: fit-content;
+	}
+	.modal-content {
+		background-color: transparent;
+		border: none;
+		width: fit-content;
+	}
+	.modal-dialog {
+		width: 100%;
+	}
+	button.video-btn {
+		border: none;
+		background-color: transparent;
+	}
+	/*-------------Guias de Usuario--------------*/
+	.iR_box-bajo{
+		background: #D73D8D;
+		color: #FFF;
+		width: 100%;
+		font-size: 0.6rem;
+		line-height: 20px;
+		padding: 0%;
+	}
+	
+	.iR_box-bajo p a{
+		background: #C83037;
+		color: #FFF;
+		width: 100%;
+		font-size: 16px;
+	
+	
+	}
+	.iR_guias{
+		background: #EFEEF0;
+		color: #000000;
+		font-size: 20px;
+		font-weight: 400;
+		/* text-shadow: 0px 5px 6px #00000096; */
+		text-align: center;
+		padding: 0.5rem;
+	}
+	.iR_modem{
+		width: 100%;
+	}
+	.iR_box-guia{
+		margin-bottom: 10%;
+		margin-top: 5rem;
+	}
+	
+	.iR_fijo-bajo{
+		position: absolute;
+		bottom: 0px;
+	}
+	.iR-box-modem{
+		margin: 1rem 0rem;
+	}
+	/*-------------DERECHOS DE USUARIOS--------------*/
+	
+	.iR_texto-usuarios{
+		font-size: 18px;
+		font-weight: bold;
+		color: #1C2232;
+		margin-top: 5rem;
+		padding: 0rem 4rem;
+		margin-bottom: 5rem;
+	}
+	.iR_boton-conocela{
+		font-size: 20px;
+		color: #FFFFFF;
+		background: #C83037;
+		border: 4px solid #1C8FA0;
+		padding: 5px 40px;
+		border-radius: 10px;
+	
+	}
+	.iR_boton-conocela:hover{
+	color: #FFF;
+	} 
+  }
+	/*-------------RESPONSIVE--------------*/
+	@media only screen and (max-width: 1100px) {
+		  .video_faq {
+			  font-size: 10px;
+		  }
+		  .videos_faqus {
+			  width: 85vmin;
+		  }
+	  }
+	@media only screen and (max-width: 991px) {
+	  .bordes {
+		border-left: none;
+		border-right: none;
+		}
+  
+		.video_faq {
+			font-size: 10px;
+		}
+	
+		.videos_faqus {
+			width: 85vmin;
+		}
+	}
+  @media only screen and (max-width: 991px) {
+	.bordes {
+	  border-left: none;
+	  border-right: none;
+	  }
+	  .video_faq {
+		  font-size: 10px;
+	  }
+  
+	  .videos_faqus {
+		  width: 85vmin;
+	  }
+  }
+  @media only screen and (max-width: 800px) {
+  .iR_fijo-bajo{
+	  position: relative;
+	  }
+  
+	  .videos_faqus {
+		  width: 90vmin;
+	  }
+	  #tyc-banner {
+		  align-self: center;
+	  }
+  }
+  @media only screen and (max-width: 600px) {
+	  .video_faq {
+	  font-size: 10px;
+	  }
+  
+	  .iR_texto {
+	  font-size: 25px;
+	  line-height: 40px;
+	  }
+	  .iR_peso {
+	  font-size: 60px;
+	  line-height: 3rem;
+	  margin-top: 1.5rem;
+	  }
+	  .iR_costo {
+	  font-size: 80px;
+	  font-weight: 900;
+	  }
+	  .iR_modem{
+	  width: 100%;
+	  }
+	  .iR_fijo-bajo{
+	  position: relative;
+	  padding: 10px 5px 1px 5px;
+	  }
+	  .iR_info {
+	  font-size: 23px;
+	  line-height: 40px;
+	  text-align: center;
+	  padding-top: 0.5rem;
+	  margin-bottom: 1rem;
+	  }
+	  .iR_decides {
+	  font-size: 28px;
+	  }
+	  .iR_faqs-titulo {
+	  font-size: 30px;
+	  }
+	  .iR_contrata {
+	  font-size: 25px;
+	  }
+	  .iR_incluye{
+	  width:100%;
+	  }
+	  .iR_ver {
+	  font-size: 20px;
+	  }
+	  .iR_content-faqs {
+	  margin: 0rem;
+	  }
+	  .iR_faqs-titulo {
+	  font-size: 24px;
+	  }
+	  .iR-faq-subtitulo {
+	  font-size: 18px;
+	  }
+	  .iR_img-fallas{
+	  width: 100%;
+	  }
+	  .iR_texto-usuarios {
+	  margin-top: 2rem;
+	  padding: 0rem 1rem;
+	  margin-bottom: 5rem;
+	  }
+	  .iR_boton-conocela {
+	  font-size: 20px;
+	  }
+  
+	  .videos_faqus {
+		  width: 85vmin;
+	  }
+  
+	  .iR_content-faqs {
+		  margin: 0; 
+	  }
+  }
+  
+  @media only screen and (min-width: 320px) {
+	  .video_faq {
+		  font-size: 10px;
+	  }
+	  video#video {
+		  width: 95%;
+	  }
+  
+	  .iR_content-faqs {
+		  margin: 0; 
+	  }
+	  .container-logos img {
+		  width: 20vmin;
+	  }
+  
+	  .container-categorias {
+		  margin-top: 20px;
+	  }
+	  .container-tv-abierta {
+		  width: 100%;
+	  }
+	  .legal {
+		  padding: 0 10px;
+		  margin: 5% 0;
+	  }
+  }
+  
+  @media (min-width: 576px) {
+	  .modal-dialog {
+		  max-width: 100%;
+		  margin: 1.75rem auto;
+		  display: flex;
+		  justify-content: center;
+	  }
+  }	
+}
+
+
+@supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */
+
+/*-------INICIA ESTILOS NACHO---------*/
+a[rel="external"] {
+  color:black;
+  font:110% "Times New Roman";
+  background: white;
+  padding-right: 0.1em;
+  z-index: 48;
+}
+
+a[rel="external"]:hover,
+a[rel="external"]:focus,
+a[rel="external"]:active { z-index: 49; }
+
+a[rel="external"] .ol,
+a[rel="external"]:link .ol {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;  
+  z-index: 50; 
+}
+
+a[rel="external"]:focus .ol,
+a[rel="external"]:hover .ol {
+  float: right;
+  background: #fafafa;
+  width: auto;
+  height: auto;
+  border: solid 1px #fafafa;
+  margin-left: 0.5em; 
+  margin-top: 0.3em;
+  padding: 0.4em;
+  overflow: visible;
+  -moz-border-radius: 0.4em; 
+  -webkit-border-radius: 0.4em; 
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.4em grey;
+  z-index:51; 
+}
+
+
+  a[rel="external"]:focus .ol:before,
+  a[rel="external"]:hover .ol:before {
+      content:"";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 1px solid #fafafa; /*color del rectangulo*/
+      border-right: 20px solid #fafafa; /*color del triangulo*/
+      border-bottom: 15px solid transparent;
+      margin: 0 0 0 -27px;
+  }
+
+ul{  list-style:none; }
+
+/*------------------*/
+a.iR_enlace{
+	color: #C83037;
+}
+hr{
+	background-size: #000;
+	width: 90%
+}
+
+.iR_fondo{
+	
+	background-size: 100% 100%;
+	color: #FFF;
+}
+.fondo_title {
+	background-image: url(../img/pleca_titulo.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.iR_texto{
+	color: #FFF;
+	font-size: 60px;
+	font-weight: 900;
+	line-height: 70px;
+	text-shadow: 0px 5px 6px #00000096;
+}
+.iR_peso{
+	font-size: 63px;
+	font-weight: 900;
+	line-height: 7rem;
+}
+.iR_costo{
+	font-size: 90px;
+	font-weight: 900;
+}
+
+.iR_info{
+	font-size: 33px;
+	font-weight: 900;
+	line-height: 40px;
+	text-align: left;
+	padding-top: 1rem;
+}
+.iR_contenedor{
+	text-align: center;
+}
+.iR_contrata{
+	border: 5px solid #1C8FA0;
+	border-radius: 25px;
+	color: #FFF;
+	font-size: 35px;
+	text-shadow: 0px 5px 6px #00000096;
+	font-weight: 900;
+	padding: 1rem;
+}
+.iR_contrata:hover{
+	text-decoration: none;
+	color: #FFF;
+	background:#C83037;
+}
+.iR_cobertura{
+	color: #FFF;
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 1rem;
+}
+/*
+.iR_decides{
+	background: #E82C3A;
+	color: #FFFFFF;
+	padding: 0.5rem 0rem;
+}
+*/
+.iR_videos{
+	background: #EFEEF0; 
+    color: #1C2232;
+    text-align: center;
+	font-family: 'Arial';
+	font-size: 22px;
+}
+.iR_videos1{
+	background: #EFEEF0; 
+    color: #1C2232;
+    text-align: center;
+	font-family: 'Arial';
+	font-size: 16px;
+}
+/*
+.iR_ver{
+	font-size: 30px;
+	font-weight: 900;
+	text-shadow: 0px 5px 6px #00000096;
+	text-align: center;
+	color: #EFE4BA;
+}
+*/
+.iR_dudas{
+	font-size: 30px;
+	font-weight: 900;
+	text-shadow: 0px 5px 6px #00000096;
+	text-align: center;
+	color: white;
+}
+.dudas_video {
+	font-size: 20px;
+}
+.triangle_red{
+	clip-path: polygon(100% 0, 0 0, 50% 100%);
+	background-color: #E82C3A;
+	width: 20px;
+	height: 10px;
+	right: 50%;
+	color:black;
+	font:110% "Times New Roman";
+	background: white;
+	padding-right: 0.1em;
+	z-index: 48;
+  }
+  
+  a[rel="external"]:hover,
+  a[rel="external"]:focus,
+  a[rel="external"]:active { z-index: 49; }
+  
+  a[rel="external"] .ol,
+  a[rel="external"]:link .ol {
+	position: absolute;
+
+}
+
+.iR_canales, .iR_listas{
+	display: inline-block;
+}
+
+.iR_sin-costo{
+	text-align: center;
+}
+
+
+.iR_abierta{
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.iR_recargas{
+	font-size: 20px;
+	font-weight: 900;
+}
+.iR_alocalidad{
+	font-size: 14px;
+}
+.iR_audio{
+	font-size: 30px;
+	font-weight: 900;
+}
+.iR_suscripcion{
+	font-size: 28px;
+	font-weight: 900;
+	padding-top: 2rem;
+}
+/* Diego Pacheco vvvvvvvvvvvvvvvv */
+.iR_box-bajo{
+	background: #D73D8D;
+	color: #FFF;
+	width: 100%;
+	font-size: 0.6rem;
+	line-height: 20px;
+	padding: 0%;
+}
+/* Diego Pacheco ^^^^^^^^^^^^^^^^ */
+
+.iR_incluye{
+	background:#C83037;
+	padding: 10px;
+	width:350px;
+	margin-bottom: 0rem;
+	font-size: 14px;
+}
+span.iR_ocultar{
+position: absolute;
+left: -90000px;
+}
+
+.iR_mapa{
+	color: #000;
+	font-size: 16px;
+}
+.iR_mapa:hover{
+	color: #C83036;
+}
+.iR_site-map{
+	margin: 1.5rem;
+}
+.iR_img-fallas{
+	border: none;
+}
+.app_nettv {
+	background: transparent linear-gradient(180deg, #C9C9C9 0%, #FDFCFE 100%) 0% 0% no-repeat padding-box;
+	opacity: 1;
+	text-align: center;
+	color: #1C2232;
+	padding: 20px;
+}
+.logos_store {
+	width: 100px;
+}
+.logos_store_f {
+	width: 80px;
+	padding-left: 0;
+}
+.termycond {
+    text-align: center;
+    background: #2DB8BF;
+    height: 30px;
+    font-family: 'Arial';
+    color: white;
+    text-decoration: underline;
+}
+h2.text-pqt-base {
+    font-family: 'Arial';
+    font-size: 26px;
+    text-align: center;
+}
+p.card-text.precio-base {
+    font-family: 'Arial-Black';
+    font-size: 13px;
+}
+#paq_base {
+	background: #EFEFEF;
+}
+.paq_base2 {
+	background: #EFEFEF;
+}
+.box-chica {
+	margin-left: 310px;
+}
+.card-body{
+	padding-top: 67px;
+}
+.termycond2{
+	text-align: center;
+	font-family: 'Arial-Bold';
+	font-size: 13px;
+	margin-top: 15px;
+	color: #1C2232;
+}
+.text-termycond {
+	color: #1C2232;
+}
+.carousel-princ {
+	margin-left: -15px;
+    width: 103%!important;
+}
+
+
+/*---AJUSTES HOME ---*/
+.container-canales {
+    color: white;
+}
+.container-canales h3 {
+	text-align: center;
+}
+
+.container-logos img {
+	width: 13vmin;
+}
+.categoria-canales {
+	font-size: 12px;
+}
+.container-categorias {
+	margin: 60px 0px;
+}
+.container-tv-abierta {
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,191,191,1) 100%);
+	text-align: center;
+	border-radius: 12px;
+	-webkit-box-shadow: 0px 4px 9px 2px #0a0a0a5d; 
+	box-shadow: 0px 4px 9px 2px #0a0a0a5d;
+	width: 90%;
+}
+#title-sextreme {
+	margin-top: 60px;
+}
+#tyc-banner {    
+	align-self: end;
+	padding-bottom: 3em;
+}
+
+/*-------------BANER--------------*/
+.image_full{
+	display:block;
+	width: 100%;
+   }
+ 
+  .image_mobile{
+   display:none !important;
+   width: 100%;
+  }
+
+  /*---Guias Usuario----*/
+
+  .guias {
+	background-color: #EFEEF0;
+    border: 1px solid #EFEEF0;
+    color: #1C2232;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.iR_box-bajo{
+	background: #D53D8D;
+	color: #FFF;
+	width: 100%;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 2% 3% 1% 3%;
+}
+
+.iR_box-bajo p a{
+	background: #D53D8D;
+	color: #FFF;
+	width: 100%;
+	font-size: 16px;
+
+
+}
+.iR_guias{
+	background: #EFEEF0;
+	color: #1C2232;
+	font-size: 30px;
+	text-align: center;
+	padding: 0.5rem;
+}
+.iR_modem{
+	width: 100%;
+}
+.iR_box-guia{
+	margin-bottom: 10%;
+	margin-top: 5rem;
+}
+
+.iR_fijo-bajo{
+	position: absolute;
+	bottom: 0px;
+}
+.iR-box-modem{
+	margin: 1rem 0rem;
+}
+
+
+ 
+ @media (max-width: 640px) and (min-width: 320px){
+   .image_full{
+	display:none !important;
+   }
+ 
+   .image_mobile{
+	display:block !important;
+   }
+ 
+/*---
+
+	width: 0;
+	height: 0;
+	overflow: hidden;  
+	z-index: 50; 
+  }*/
+  
+  a[rel="external"]:focus .ol,
+  a[rel="external"]:hover .ol {
+	float: right;
+	background: #fafafa;
+	width: auto;
+	height: auto;
+	border: solid 1px #fafafa;
+	margin-left: 0.5em; 
+	margin-top: 0.3em;
+	padding: 0.4em;
+	overflow: visible;
+	-moz-border-radius: 0.4em; 
+	-webkit-border-radius: 0.4em; 
+	border-radius: 0.4em;
+	box-shadow: 0.3em 0.3em 0.4em grey;
+	z-index:51; 
+  }
+  
+  
+	a[rel="external"]:focus .ol:before,
+	a[rel="external"]:hover .ol:before {
+		content:"";
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-top: 1px solid #fafafa; /*color del rectangulo*/
+		border-right: 20px solid #fafafa; /*color del triangulo*/
+		border-bottom: 15px solid transparent;
+		margin: 0 0 0 -27px;
+	}
+  
+  ul{  list-style:none; }
+  
+  /*------------------*/
+  a.iR_enlace{
+	  color: #C83037;
+  }
+  hr{
+	  background-size: #000;
+	  width: 90%
+  }
+  
+  .iR_fondo{
+	  
+	  background-size: 100% 100%;
+	  color: #FFF;
+  }
+  .fondo_title {
+	  background-image: url(../img/pleca_titulo.svg);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+  }
+  
+  .iR_texto{
+	  color: #FFF;
+	  font-size: 60px;
+	  font-weight: 900;
+	  line-height: 70px;
+	  text-shadow: 0px 5px 6px #00000096;
+  }
+  .iR_peso{
+	  font-size: 63px;
+	  font-weight: 900;
+	  line-height: 7rem;
+  }
+  .iR_costo{
+	  font-size: 90px;
+	  font-weight: 900;
+  }
+  
+  .iR_info{
+	  font-size: 33px;
+	  font-weight: 900;
+	  line-height: 40px;
+	  text-align: left;
+	  padding-top: 1rem;
+  }
+  .iR_contenedor{
+	  text-align: center;
+  }
+  .iR_contrata{
+	  border: 5px solid #1C8FA0;
+	  border-radius: 25px;
+	  color: #FFF;
+	  font-size: 35px;
+	  text-shadow: 0px 5px 6px #00000096;
+	  font-weight: 900;
+	  padding: 1rem;
+  }
+  .iR_contrata:hover{
+	  text-decoration: none;
+	  color: #FFF;
+	  background:#C83037;
+  }
+  .iR_cobertura{
+	  color: #FFF;
+	  text-align: center;
+	  font-size: 16px;
+	  padding-bottom: 1rem;
+  }
+  /*
+  .iR_decides{
+	  background: #E82C3A;
+	  color: #FFFFFF;
+	  padding: 0.5rem 0rem;
+  }
+  */
+  .iR_videos{
+	  background: #EFEEF0; 
+	  color: #1C2232;
+	  text-align: center;
+	  font-family: 'Arial';
+	  font-size: 22px;
+  }
+  .iR_videos1{
+	  background: #EFEEF0; 
+	  color: #1C2232;
+	  text-align: center;
+	  font-family: 'Arial';
+	  font-size: 16px;
+  }
+  /*
+  .iR_ver{
+	  font-size: 30px;
+	  font-weight: 900;
+	  text-shadow: 0px 5px 6px #00000096;
+	  text-align: center;
+	  color: #EFE4BA;
+  }
+  */
+  .iR_dudas{
+	  font-size: 30px;
+	  font-weight: 900;
+	  text-shadow: 0px 5px 6px #00000096;
+	  text-align: center;
+	  color: white;
+  }
+  .dudas_video {
+	  font-size: 20px;
+  }
+  .triangle_red{
+	  clip-path: polygon(100% 0, 0 0, 50% 100%);
+	  background-color: #E82C3A;
+	  width: 20px;
+	  height: 10px;
+	  right: 50%;
+	  position: absolute;
+  }
+  
+  .iR_canales, .iR_listas{
+	  display: inline-block;
+  }
+  
+  .iR_sin-costo{
+	  text-align: center;
+  }
+  
+  
+  .iR_abierta{
+	  font-size: 30px;
+	  font-weight: 900;
+  }
+  
+  .iR_recargas{
+	  font-size: 20px;
+	  font-weight: 900;
+  }
+  .iR_alocalidad{
+	  font-size: 14px;
+  }
+  .iR_audio{
+	  font-size: 30px;
+	  font-weight: 900;
+  }
+  .iR_suscripcion{
+	  font-size: 28px;
+	  font-weight: 900;
+	  padding-top: 2rem;
+  }
+  
+  .iR_incluye{
+	  background:#C83037;
+	  padding: 10px;
+	  width:350px;
+	  margin-bottom: 0rem;
+	  font-size: 14px;
+  }
+  span.iR_ocultar{
+  position: absolute;
+  left: -90000px;
+  }
+  
+  .iR_mapa{
+	  color: #000;
+	  font-size: 16px;
+  }
+  .iR_mapa:hover{
+	  color: #C83036;
+  }
+  .iR_site-map{
+	  margin: 1.5rem;
+  }
+  .iR_img-fallas{
+	  border: none;
+  }
+  .app_nettv {
+	  background: transparent linear-gradient(180deg, #C9C9C9 0%, #FDFCFE 100%) 0% 0% no-repeat padding-box;
+	  opacity: 1;
+	  text-align: center;
+	  color: #1C2232;
+	  padding: 20px;
+  }
+  .logos_store {
+	  width: 100px;
+  }
+  .logos_store_f {
+	  width: 80px;
+	  padding-left: 0;
+  }
+  .termycond {
+	  text-align: center;
+	  background: #2DB8BF;
+	  height: 30px;
+	  font-family: 'Arial';
+	  color: white;
+	  text-decoration: underline;
+  }
+  h2.text-pqt-base {
+	  font-family: 'Arial';
+	  font-size: 26px;
+	  text-align: center;
+  }
+  p.card-text.precio-base {
+	  font-family: 'Arial-Black';
+	  font-size: 13px;
+  }
+  #paq_base {
+	  background: #EFEFEF;
+  }
+  .paq_base2 {
+	  background: #EFEFEF;
+  }
+  .box-chica {
+	  margin-left: 310px;
+  }
+  .card-body{
+	  padding-top: 67px;
+  }
+  .termycond2{
+	  text-align: center;
+	  font-family: 'Arial-Bold';
+	  font-size: 13px;
+	  margin-top: 15px;
+	  color: #1C2232;
+  }
+  .text-termycond {
+	  color: #1C2232;
+  }
+  .carousel-princ {
+	  margin-left: -15px;
+	  width: 103%!important;
+  }
+  
+  
+  /*---AJUSTES HOME ---*/
+  .container-canales {
+	  color: white;
+  }
+  .container-canales h3 {
+	  text-align: center;
+  }
+  
+  .container-logos img {
+	  width: 16vmin;
+  }
+  .categoria-canales {
+	  font-size: 12px;
+  }
+  .container-categorias {
+	  margin: 60px 0px;
+  }
+  .container-tv-abierta {
+	background: rgb(247,247,247);
+	background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
+	  text-align: center;
+	  border-radius: 12px;
+	  -webkit-box-shadow: 0px 4px 9px 2px #0a0a0a5d; 
+	  box-shadow: 0px 4px 9px 2px #0a0a0a5d;
+	  width: 90%;
+  }
+  #title-sextreme {
+	  margin-top: 60px;
+  }
+  #tyc-banner {    
+	  align-self: end;
+  }
+  
+  /*-------------BANER--------------*/
+  .image_full{
+	  display:block;
+	  width: 100%;
+	 }
+
+   
+	.image_mobile{
+	 display:none !important;
+	 width: 100%;
+	}
+
+   
+   @media (max-width: 640px) and (min-width: 320px){
+	 .image_full{
+	  display:none !important;
+	 }
+   
+	 .image_mobile{
+	  display:block !important;
+	 }
+	 
+	 .box-chica {
+		 margin-left: 85px;
+	 }
+	 .img-pago {
+		 width: 61px;
+	 }
+	 .content-logos{
+		 margin-left: -35px;
+	 }
+	 .iR_LP, .iR_listas {
+	  text-align: center;
+	  margin: 13px
+   	}
+
+   .iR_LP, .iR_listas {
+    text-align: center;
+    margin: 13px
+   }
+
+}
+ 
+ 
+/*-------------Faqs--------------*/
+
+.iR_content-faqs{
+	margin: 4rem;
+}
+.iR_faqs-titulo{
+	font-size: 30px;
+	font-weight: 400;
+	color: #000000;
+	text-shadow: 0px 5px 6px #00000096;
+	display: inline-block;
+	padding-bottom: 1rem;
+}
+.iR-faq-subtitulo{
+	font-size: 20px;
+	color: #6463BF;
+	font-weight: normal;	
+	display: inline-block;
+}
+.videos_grid {
+	padding: 20px;
+}
+.video_faq {
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 30px;
+}
+.videos_faqus {
+	width: 120vmin;
+	height: auto;
+	margin: 0;
+	border: 2px solid #707070;
+	border-radius: 7px;
+}
+.modal-video {
+	max-width: fit-content;
+}
+.modal-content {
+	background-color: transparent;
+	border: none;
+	width: fit-content;
+}
+.modal-dialog {
+	width: 100%;
+}
+button.video-btn {
+    border: none;
+    background-color: transparent;
+}
+/*-------------Guias de Usuario--------------*/
+.iR_box-bajo{
+	background: #D73D8D;
+	color: #FFF;
+	width: 100%;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 2% 3% 1% 3%;
+}
+
+.iR_box-bajo p a{
+	background: #C83037;
+	color: #FFF;
+	width: 100%;
+	font-size: 16px;
+
+
+}
+.iR_guias{
+	background: #EFEEF0;
+	color: #000000;
+	font-size: 20px;
+	/* text-shadow: 0px 5px 6px #00000096; */
+	text-align: center;
+	padding: 0.5rem;
+}
+.iR_modem{
+	width: 100%;
+}
+.iR_box-guia{
+	margin-bottom: 10%;
+	margin-top: 5rem;
+}
+.iR_fijo-bajo{
+	position: absolute;
+	bottom: 0px;
+}
+.iR-box-modem{
+	margin: 1rem 0rem;
+}
+
+
+/*-------------DERECHOS DE USUARIOS--------------*/
+
+.iR_texto-usuarios{
+	font-size: 18px;
+	font-weight: bold;
+	color: #1C2232;
+	margin-top: 5rem;
+	padding: 0rem 4rem;
+	margin-bottom: 5rem;
+}
+.iR_boton-conocela{
+	font-size: 20px;
+	color: #FFFFFF;
+	background: #C83037;
+	border: 4px solid #1C8FA0;
+	padding: 5px 40px;
+	border-radius: 10px;
+
+}
+.iR_boton-conocela:hover{
+color: #FFF;
+} 
+}
+
+/*-------------RESPONSIVE--------------*/
+
+@media only screen and (min-width: 992px) {
+	.container-logos img {
+		width: 13vmin !important;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.iR_guias{
+		background: #EFEEF0;
+		color: #000000;
+		font-size: 20px;
+		/* text-shadow: 0px 5px 6px #00000096; */
+		text-align: center;
+		padding: 0.5rem;
+	}
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+  
+  /*-------------Faqs--------------*/
+  
+  .iR_content-faqs{
+	  margin: 4rem;
+  }
+  .iR_faqs-titulo{
+	  font-size: 30px;
+	  font-weight: 400;
+	  color: #000000;
+	  text-shadow: 0px 5px 6px #00000096;
+	  display: inline-block;
+	  padding-bottom: 1rem;
+  }
+  .iR-faq-subtitulo{
+	  font-size: 20px;
+	  color: #6463BF;
+	  font-weight: normal;	
+	  display: inline-block;
+  }
+  .videos_grid {
+	  padding: 20px;
+  }
+  .video_faq {
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 13px;
+	  margin-top: 30px;
+  }
+  .videos_faqus {
+	  width: 120vmin;
+	  height: auto;
+	  margin: 0;
+	  border: 2px solid #707070;
+	  border-radius: 7px;
+  }
+  .modal-video {
+	  max-width: fit-content;
+  }
+  .modal-content {
+	  background-color: transparent;
+	  border: none;
+	  width: fit-content;
+  }
+  .modal-dialog {
+	  width: 100%;
+  }
+  button.video-btn {
+	  border: none;
+	  background-color: transparent;
+  }
+  /*-------------Guias de Usuario--------------*/
+  .iR_box-bajo{
+	  background: #D73D8D;
+	  color: #FFF;
+	  width: 100%;
+	  font-size: 0.6rem;
+	  line-height: 20px;
+	  padding: 0%;
+  }
+  
+  .iR_box-bajo p a{
+	  background: #C83037;
+	  color: #FFF;
+	  width: 100%;
+	  font-size: 16px;
+  
+  
+  }
+  .iR_guias{
+	  background: #EFEEF0;
+	  color: #000000;
+	  font-size: 20px;
+	  font-weight: 400;
+	  /* text-shadow: 0px 5px 6px #00000096; */
+	  text-align: center;
+	  padding: 0.5rem;
+  }
+  .iR_modem{
+	  width: 100%;
+  }
+  .iR_box-guia{
+	  margin-bottom: 10%;
+	  margin-top: 5rem;
+  }
+  
+  .iR_fijo-bajo{
+	  position: absolute;
+	  bottom: 0px;
+  }
+  .iR-box-modem{
+	  margin: 1rem 0rem;
+  }
+  /*-------------DERECHOS DE USUARIOS--------------*/
+  
+  .iR_texto-usuarios{
+	  font-size: 18px;
+	  font-weight: bold;
+	  color: #1C2232;
+	  margin-top: 5rem;
+	  padding: 0rem 4rem;
+	  margin-bottom: 5rem;
+  }
+  .iR_boton-conocela{
+	  font-size: 20px;
+	  color: #FFFFFF;
+	  background: #C83037;
+	  border: 4px solid #1C8FA0;
+	  padding: 5px 40px;
+	  border-radius: 10px;
+  
+  }
+  .iR_boton-conocela:hover{
+  color: #FFF;
+  } 
+}
+  /*-------------RESPONSIVE--------------*/
+  @media only screen and (max-width: 1100px) {
+		.video_faq {
+			font-size: 10px;
+		}
+		.videos_faqus {
+			width: 85vmin;
+		}
+	}
+  @media only screen and (max-width: 991px) {
+	.bordes {
+	  border-left: none;
+	  border-right: none;
+	  }
+
+	  .video_faq {
+		  font-size: 10px;
+	  }
+  
+	  .videos_faqus {
+		  width: 85vmin;
+	  }
+  }
+@media only screen and (max-width: 991px) {
+  .bordes {
+    border-left: none;
+    border-right: none;
+	}
+	.video_faq {
+		font-size: 10px;
+	}
+
+	.videos_faqus {
+		width: 85vmin;
+	}
+}
+@media only screen and (max-width: 800px) {
+.iR_fijo-bajo{
+	position: relative;
+	}
+
+	.videos_faqus {
+		width: 90vmin;
+	}
+	#tyc-banner {
+		align-self: center;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.video_faq {
+	font-size: 10px;
+	}
+
+	.iR_texto {
+	font-size: 25px;
+	line-height: 40px;
+	}
+	.iR_peso {
+	font-size: 60px;
+	line-height: 3rem;
+	margin-top: 1.5rem;
+	}
+	.iR_costo {
+	font-size: 80px;
+	font-weight: 900;
+	}
+	.iR_modem{
+	width: 100%;
+	}
+	.iR_fijo-bajo{
+	position: relative;
+	padding: 10px 5px 1px 5px;
+	}
+	.iR_info {
+	font-size: 23px;
+	line-height: 40px;
+	text-align: center;
+	padding-top: 0.5rem;
+	margin-bottom: 1rem;
+	}
+	.iR_decides {
+	font-size: 28px;
+	}
+	.iR_faqs-titulo {
+	font-size: 30px;
+	}
+	.iR_contrata {
+	font-size: 25px;
+	}
+	.iR_incluye{
+	width:100%;
+	}
+	.iR_ver {
+	font-size: 20px;
+	}
+	.iR_content-faqs {
+	margin: 0rem;
+	}
+	.iR_faqs-titulo {
+	font-size: 24px;
+	}
+	.iR-faq-subtitulo {
+	font-size: 18px;
+	}
+	.iR_img-fallas{
+	width: 100%;
+	}
+	.iR_texto-usuarios {
+	margin-top: 2rem;
+	padding: 0rem 1rem;
+	margin-bottom: 5rem;
+	}
+	.iR_boton-conocela {
+	font-size: 20px;
+	}
+
+	.videos_faqus {
+		width: 85vmin;
+	}
+
+	.iR_content-faqs {
+		margin: 0; 
+	}
+}
+
+@media only screen and (min-width: 320px) {
+	.video_faq {
+		font-size: 10px;
+	}
+	video#video {
+		width: 95%;
+	}
+
+	.iR_content-faqs {
+		margin: 0; 
+	}
+	.container-logos img {
+		width: 20vmin;
+	}
+
+	.container-categorias {
+		margin-top: 20px;
+	}
+	.container-tv-abierta {
+		width: 100%;
+	}
+	.legal {
+		padding: 0 10px;
+		margin: 5% 0;
+	}
+}
+
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: 100%;
+		margin: 1.75rem auto;
+		display: flex;
+		justify-content: center;
+	}
+}
+}

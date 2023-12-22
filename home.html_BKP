@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Incluimos código de seguimiento -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164812654-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164812654-1');
+</script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/iR.css">
+    <!-- Compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!-- Minified JS library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <title>Net TV</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  </head>
+  <body>
+    <div class="nav-top">
+      <div class="menu-phone1"><img class="img-top" src="img/phone.png" alt="imagen teléfono">CONTRATA: 5555 123 123 | <div class="atn-clientes"> ATENCIÓN A CLIENTES: 55 9628 3474</div></div>
+     <!-- <div class="menu-phone-movil"><img class="img-top" src="img/phone.png" alt="imagen teléfono">SUSCRIPCIONES: <a href="tel:5555123123">5555 123 123</a> | <div class="atn-clientes"> ATENCIÓN A CLIENTES: <a href="tel:5556101010">5556 10 10 10</a> </div></div>-->
+      
+      <div class="menu-mail1"><span class="separa">|</span> <a href="contacto.html" target="_self" style="text-decoration: underline; color: white;"><img class="img-top" src="img/mail.png" alt="imagen sobre"> CONTACTO</a></div>
+    </div>
+
+    <header>
+      <nav title="#" class="navbar navbar-expand-lg navbar-light fluid" id="skip-nav" style="margin-bottom:0px; padding-top:5px;">
+        <a class="navbar-brand" href="home.html" target="_self"><img class="logo" src="img/logotipo-nettv.svg" alt="Logo NETTV" style="margin-top:-12px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown bordes">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 14px;">AYUDA Y SOPORTE</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="guiadeprogramacion.html" target="_self">GUÍA DE PROGRAMACIÓN</a>
+                  <a class="dropdown-item" href="faqus.html" target="_self">PREGUNTAS FRECUENTES</a>
+                  <a class="dropdown-item" href="lugares_de_pago.html" target="_self">ESTABLECIMIENTOS DE RECARGA</a>
+                  <a class="dropdown-item" href="guias_de_usuario.html" target="_self">GUÍAS DE USUARIO</a>
+                </div>
+            </li>
+            <!--
+            <li class="nav-item">
+              <a class="nav-link" href="guia-programacion.html" target="_self" >GUÍA DE PROGRAMACIÓN</a>
+            </li>
+            -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/banner_principal/landingweb/banner_main.jpg" class="image_full">
+            <img src="img/banner_principal/landing_movil/Enmascarar_grupo_17.jpg"  class="image_mobile">
+          </div>
+
+          <div class="item">
+            <img src="img/banner_principal/landingweb/bannerNettv_7DIAS.jpg" alt="7 días" class="image_full"></a> 
+            <img src="img/banner_principal/landing_movil/bannerNettv_7DIAS.jpg" alt="7 días" class="image_mobile"></a>  
+           </div> 
+
+          <div class="item">
+             <a href="https://nettv.com.mx/terminos-y-condiciones-sextreme.html"><img src="img/banner_principal/landingweb/sube_temperatura.jpg" alt="sube la temperatura" class="image_full"></a> 
+             <a href="https://nettv.com.mx/terminos-y-condiciones-sextreme.html"><img src="img/banner_principal/landing_movil/movile_slider.jpg" alt="sube la temperatura" class="image_mobile"></a>  
+             <!--
+              <div class="termycond">
+                <a href="https://nettv.com.mx/terminos-y-condiciones-sextreme.html"Style="color:white"><p style="color: white;">Consulta términos y condiciones aquí</p></a> 
+               </div>-->
+            </div>
+            
+          
+      </div>
+  
+      <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+
+ 
+   <!--
+    <div id="mydiv">
+      <img src="img/banner_principal/landingweb/banner_main.png" class="image_full">
+      <img src="img/banner_principal/landing_movil/Enmascarar grupo 17.png"  class="image_mobile">
+  </div>
+   -->
+    <div class="iR_decides">
+      <h4 class="iR_ver">
+       TÚ DECIDES CUÁNDO VER Y PAGAR
+      </h4>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-9">
+        <ul class="iR_canales">
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/mvs.svg" width="" height="" alt="" aria-labelledby="1"/>
+              <span class="ol" id="1">MVS tv</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/exa.svg"   alt="" />
+              <span class="ol" id="1">exa</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/mc.svg"   alt="" />
+              <span class="ol" id="1">MC</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/mp.png"   alt="" />
+              <span class="ol" id="1">Multipremier</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/la-mejor.svg"   alt=""/>
+              <span class="ol" id="1">La mejor</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/uno.svg"   alt=""/>
+              <span class="ol" id="1">canal uno</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/dos.svg"   alt=""/>
+              <span class="ol" id="1">canal dos</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/cinco.svg"   alt=""/>
+              <span class="ol" id="1">canal cinco</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/siete.svg"   alt=""/>
+              <span class="ol" id="1">canal siete</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/catorce.svg"   alt=""/>
+              <span class="ol" id="1">canal catorce</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/once_11.svg"   alt=""/>
+              <span class="ol" id="1">canal once</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/once_nines.svg"   alt=""/>
+              <span class="ol" id="1">once niños</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/imagen.svg"   alt=""/>
+              <span class="ol" id="1">imagen</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/ingenio.svg"   alt=""/>
+              <span class="ol" id="1">ingenio tv</span>
+            </a>
+          </li>
+
+          <div class="col-12" align="center">
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/justicia.svg"   alt=""/>
+              <span class="ol" id="1">justicia Tv</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/seis.svg"   alt=""/>
+              <span class="ol" id="1">Seis</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/congreso.svg"   alt=""/>
+              <span class="ol" id="1">canal congreso</span>
+            </a>
+          </li> 
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/22.svg"   alt=""/>
+              <span class="ol" id="1">22</span>
+            </a>
+          </li> 
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/221.svg"   alt=""/>
+              <span class="ol" id="1">22.1</span>
+            </a>
+          </li> 
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/unam.svg"   alt=""/>
+              <span class="ol" id="1">unam</span>
+            </a>
+          </li> 
+        </div>
+
+        <div class="col-12" align="center">
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/IMAGEN_3.2.svg"   alt=""/>
+              <span class="ol" id="1">imagen</span>
+            </a>
+          </li>
+          
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/AZTECA_7.3.svg"   alt=""/>
+              <span class="ol" id="1">azteca</span>
+            </a>
+          </li>
+          </div> 
+        </ul>
+      </div> 
+    </div>
+
+  <div class="iR_sin-costo justify-content-center">
+    <h4 class="iR_abierta">TV ABIERTA SIN COSTO</h4>
+    <p class="iR_alocalidad">DISPONIBLE EN TU LOCALIDAD DE ACUERDO A LA TECNOLOGÍA DE (SD) SISTEMA DIGITAL Y EN CUMPLIMIENTO A LA REFORMA EN TELECOMUNICACIONES</p>
+    <hr/>
+    <h4 class="iR_audio">CANALES DE AUDIO DIGITAL</h4>
+  </div>
+ 
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <ul class="iR_canales justify-content-center">
+          <li class="iR_listas justify-content-center">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/digital.svg"   alt="" aria-labelledby="1"/>
+              <span class="ol" id="1">ritmo digital mix</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/decades.svg"   alt="" />
+              <span class="ol" id="1">decasdes</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/rock.svg"   alt="" />
+              <span class="ol" id="1">rock clasicos</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/exa-radio.svg"   alt="" />
+              <span class="ol" id="1">exa fm</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/clobo.svg"   alt=""/>
+              <span class="ol" id="1">Clobo</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/latina.svg"   alt=""/>
+              <span class="ol" id="1">fiesta latina</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/estereo-rey.svg"   alt=""/>
+              <span class="ol" id="1">stereorey</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/ambient.svg"   alt=""/>
+              <span class="ol" id="1">ambient</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/clasicos.svg"   alt=""/>
+              <span class="ol" id="1">classics</span>
+            </a>
+          </li>
+
+          <li class="iR_listas">
+            <a href="#" class="america-gray" rel="external" >
+              <img src="img/la-mejor-fm.svg"   alt=""/>
+              <span class="ol" id="1">la mejor fm</span>
+            </a>
+          </li>
+
+        </ul>
+              <div align="center">
+        <p >VIGENCIA DEL PAQUETE, SUJETO A CONDICIONES TÉCNICAS Y DISPONIBILIDAD DE COBERTURA.<br> Vigencia válida al 31 de octubre 2021. Sujeto a cambio con previa autorización de la Autoridad Competente.</p>
+      </div>
+      </div>
+
+    </div>
+   
+    <div class="card ">
+    <div class="container-fluid" id="paq_base">
+      <div id="id_paq_base" class="paq_base2">
+          <h2 class="text-pqt-base"><strong>ADEMÁS</strong>  DISFRUTA EL PAQUETE</h2>
+           <br>
+         
+          <div class="row">
+            <div class="col-md-5 col-lg-offset-1 col-md-offset-1 col-sm-12">
+              <img class="box-chica" src="img/box_chica.png" alt="box chica" class="img-responsive">
+            </div>
+            <div class="col-md-3 col-sm-12 text-center">
+              <div class="card-body">
+                <img src="img/sextremme_logo.png" alt="">
+                <br>
+                <br>
+                <p class="card-text precio-base">POR $40 PESOS ADICIONALES <br> A TU PAQUETE BASE</p>
+                
+      
+               
+                
+              </div>
+              
+            </div>
+            <br>
+            <div class="col-md-12 termycond2">
+           <a href="https://nettv.com.mx/terminos-y-condiciones-sextreme.html"><p class="text-termycond">Consulta aquí términos y condiciones</p></a> 
+            </div>
+          </div>
+        </div>
+        
+  
+       </div>
+      </div>
+  </div>
+    <div class="col-md-12 Fr_CarruselBanner">
+      <div class="carousel slide" id="carousel-96160">
+        <ol class="carousel-indicators">
+          <li data-slide-to="0" data-target="#carousel-96160" class="active">
+          </li>
+          <li data-slide-to="1" data-target="#carousel-96160">
+          </li>
+         
+        
+        </ol>
+        <div class="carousel-inner carousel-princ">
+          <div class="carousel-item active" id="Fr_Banner01">
+              <h2>
+                Con la App NETTV
+              </h2>
+              <h4>
+                Tienes el control de tu entretenimiento
+              </h4>
+              <p>
+                Haz fácilmente tus recargas mensuales de programación y consulta todos los detalles de tu servicio.
+              </p>
+              <img src="img/img_banners/logoappnettv.png" alt="Logo AppNETTV" class="logoApp">
+              <h3>
+                Descárgala con el nombre NETTV México
+              </h3>
+              <center>
+                <ol>
+
+                  <li>
+                      <a href="https://apps.apple.com/mx/app/nettv-m%C3%A9xico/id1513997150" target="_blank">
+                        <img src="img/img_banners/appstore.png" alt="Appstore">
+                      </a>
+                  </li>
+                  <li>
+                    <a href="https://play.google.com/store/apps/details?id=com.mx.nettv&hl=es_MX" target="_blank">
+                      <img src="img/img_banners/googleplay.png" alt="Googleplay">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://appgallery.huawei.com/#/app/C102406939?locale=es_US&source=appshare&subsource=C102406939" target="_blank">
+                      <img src="img/img_banners/appgallery.png" alt="AppGallery">
+                    </a>
+                  </li>
+
+                </ol>
+              </center>
+          </div>
+          <div class="carousel-item" id="Fr_Banner02">
+            <div class="row">
+              <div class="col-md-7">
+                  <h2>¿TIENES DUDAS SOBRE <br> COMO RECARGAR?</h2>
+                  <center>
+                    <a href="faqus.html" target="_blank" class="Fr_Btn" >CONSULTA AQUÍ LOS VIDEOS</a>
+                  </center>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-6 col-md-4">
+                      <h4>TAMBIÉN PUEDES VERLOS EN</h4>
+                    </div>
+                    <div class="col-6 col-md-4">
+                      <img src="img/img_banners/canal200.png" alt="canal200" class="Fr_Canal200">
+                    </div>
+                    <div class="col-md-2"></div>
+                  </div>
+
+              </div>
+
+              <div class="col-md-3">
+                <img src="img/img_banners/devices_appnettv.png" alt="Dispositivos App NETTV" class="DevicesApp">
+              </div>
+            </div>
+            
+
+          </div>
+         
+        </div> <a class="carousel-control-prev" href="#carousel-96160" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-96160" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+      </div>
+    </div>
+   
+    <!----CONTENIDO------>
+
+    <footer class="container-fluid" id="skip-nav">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-8">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="img/img_banners/nettv_logo_footer.png" alt="NETTV LOGO" style="padding-top: 30px;">
+                </div>
+                <div class="col-md-3">
+                  <ul class="Fr_AlignLeft2" style="padding: 20px;">
+                    <li class="list-item">
+                      <a class="link-pie1" href="legales.html" target="_blank">AVISO LEGAL</a>
+                    </li>
+                    <li class="list-item">
+                      <a class="link-pie1" href="https://d1o26zxlvu5t1r.cloudfront.net/legales/Aviso_Simplificado_MVS_Net.pdf" target="_blank">AVISO DE PRIVACIDAD</a>
+                    </li>
+                    <li class="list-item">
+                      <a class="link-pie1" href="https://d1o26zxlvu5t1r.cloudfront.net/documentos-legales/Aviso_dePrivacidad_Clientes_MVS_NET(NETTV).pdf" target="_blank">AVISO DE PRIVACIDAD INTEGRAL</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul class="Fr_AlignLeft2" style="padding:20px;">
+                    <li class="list-item">
+                      <a class="link-pie1" href="terminos-de-uso.html" target="_blank" >TÉRMINOS DE USO</a>
+                    </li>
+                    <li class="list-item">
+                      <a class="link-pie1" href="terminos-y-condiciones.html" target="_blank">TÉRMINOS Y CONDICIONES</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul class="Fr_AlignLeft2" style="padding: 20px;">
+                    <li class="list-item">
+                      <a class="link-pie1" href="legales/precios_servicios_tecnicos.html" target="_blank">PRECIOS Y SERVICIOS TÉCNICOS</a>
+                    </li>
+                    <li class="list-item">
+                      <a class="link-pie1" href="mapa-de-sitio.html" target="_blank">MAPA DEL SITIO</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4" id="Fr_FooterIcons">
+              <h2 style="font-size: 1.2rem;">
+                DESCARGA LA APP PARA <br>
+                TUS DISPOSITIVOS ANDROID Y IOS
+              </h2>
+              <ol>
+                <li>
+                  <img src="img/img_banners/appstore_footer.png" alt="Appstore">
+                </li>
+                <li>
+                  <img src="img/img_banners/googleplay_footer.png" alt="Google Play">
+                </li>
+                <li>
+                  <img src="img/img_banners/appgallery_footer.png" alt="AppGallery">
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="legal" style="font-size: 1.2rem;">
+      Derechos Reservados MVS NET S.A. de C.V. Prohibida su Reproducción Total o Parcial. Todo el material, incluyendo imágenes, texto, ilustraciones, diseños, íconos, fotografías, programas, videos y cualquier otro material parte de este sitio constituyen derechos de autor, marcas, marcas tridimensionales y en general, propiedad intelectual de, controlada por o licenciada a MVS NET S.A. de C.V. y sus empresas afiliadas, o bien corresponden a terceros que han licenciado o concedido el uso de sus materiales a MVS NET S.A. de C.V., por lo que están protegidos por leyes mexicanas e internacionales. El acceso a este sitio no otorga de ninguna forma, ni deberá entenderse como si otorgara licencia, cesión o autorización de los derechos de propiedad intelectual de MVS NET S.A. de C.V., sus empresas afiliadas, ni de los terceros propietarios de marcas, logos, nombres comerciales y cualquier otro contenido de este sitio. Precios y señales sujetos a cambio, previa autorización de la autoridad competente.
+    </div>
+  </footer>
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "mu7FQ5EoOF");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+  
+  </body>
+</html>

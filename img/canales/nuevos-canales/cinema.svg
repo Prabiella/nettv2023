@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.625" height="26.239" viewBox="0 0 47.625 26.239">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_23337" data-name="Rectángulo 23337" width="47.625" height="26.239" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cinema" transform="translate(0 0)">
+    <g id="Grupo_31959" data-name="Grupo 31959" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Trazado_67128" data-name="Trazado 67128" d="M6.335,27.044h1.81v1.81H6.335a4.361,4.361,0,0,0-3.2,1.326,4.524,4.524,0,0,0,0,6.4,4.36,4.36,0,0,0,3.2,1.326h1.81v1.81H6.335a6.105,6.105,0,0,1-4.48-1.855,6.337,6.337,0,0,1,0-8.96,6.105,6.105,0,0,1,4.48-1.855" transform="translate(0 -20.239)" fill="#161615"/>
+      <rect id="Rectángulo_23336" data-name="Rectángulo 23336" width="1.81" height="12.671" transform="translate(8.987 6.805)" fill="#161615"/>
+      <path id="Trazado_67129" data-name="Trazado 67129" d="M48.316,23.3v8.5h-1.81V16.469l6.336,11.16v-8.5h1.81V34.462Z" transform="translate(-34.804 -12.325)" fill="#161615"/>
+      <path id="Trazado_67130" data-name="Trazado 67130" d="M90.62,27.044v1.81H84.284v5.43H90.62v1.81H84.284V37.9H90.62v1.81H82.474V27.044Z" transform="translate(-61.721 -20.239)" fill="#161615"/>
+      <path id="Trazado_67131" data-name="Trazado 67131" d="M120.252,30.5v6.688h-1.81V23.663l4.525,7.974,4.525-7.974V37.184h-1.81V30.5l-2.715,4.788Z" transform="translate(-88.638 -17.708)" fill="#161615"/>
+      <path id="Trazado_67132" data-name="Trazado 67132" d="M157.255,31.694h-1.873l4.263-15.368,4.263,15.368h-1.873l-2.39-8.381Z" transform="translate(-116.282 -12.218)" fill="#161615"/>
+      <path id="Trazado_67133" data-name="Trazado 67133" d="M35.739,3.537V0l1.8,3.248V6.763Z" transform="translate(-26.746 0)" fill="#161615"/>
+      <path id="Trazado_67134" data-name="Trazado 67134" d="M82.439,80.934V77.4l1.8,3.248V84.16Z" transform="translate(-61.695 -57.922)" fill="#161615"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.034" y1="1" x2="0.938" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#825ab2"/>
+      <stop offset="1" stop-color="#8f55ac"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <circle id="Elipse_38" data-name="Elipse 38" cx="29" cy="29" r="29" transform="translate(699 1584)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_58" data-name="Enmascarar grupo 58" transform="translate(-699 -1584)" clip-path="url(#clip-path)">
+    <g id="Grupo_5960" data-name="Grupo 5960">
+      <circle id="Elipse_37" data-name="Elipse 37" cx="29" cy="29" r="29" transform="translate(699 1584)" fill="url(#linear-gradient)"/>
+      <text id="_" data-name="+" transform="translate(728 1631)" fill="#fff" font-size="57" font-family="Arial-Black, Arial Black" font-weight="800"><tspan x="-18" y="0">+</tspan></text>
+    </g>
+  </g>
+</svg>

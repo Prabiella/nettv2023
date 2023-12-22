@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86" height="38" viewBox="0 0 86 38">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_8508" data-name="Trazado 8508" d="M237.167,0l-2.229,6.893a.153.153,0,0,1-.17.145H227.5l5.871,4.272a.179.179,0,0,0,.213,0,18.975,18.975,0,0,1,6.084-2.468,44.908,44.908,0,0,0-7.692,7.361.681.681,0,0,0-.145.264l-.638,1.974,5.863-4.255a.162.162,0,0,1,.238,0l5.871,4.255L240.936,11.5a.153.153,0,0,1,.068-.187l5.889-4.272h-7.275a.153.153,0,0,1-.17-.145Z" transform="translate(-227.5)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.593" y1="1.244" x2="-0.59" y2="1.244" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fa1660"/>
+      <stop offset="0.28" stop-color="#fa1660"/>
+      <stop offset="0.78" stop-color="#ff7d17"/>
+      <stop offset="1" stop-color="#ff7d17"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_5393" data-name="Grupo 5393" transform="translate(-0.293 -0.238)">
+    <rect id="Rectángulo_3581" data-name="Rectángulo 3581" width="86" height="38" transform="translate(0.293 0.238)" fill="none"/>
+    <g id="Grupo_5176" data-name="Grupo 5176" transform="translate(18.174 4.709)">
+      <g id="Grupo_5177" data-name="Grupo 5177" transform="translate(0)">
+        <g id="Grupo_5162" data-name="Grupo 5162" transform="translate(19.359)" clip-path="url(#clip-path)">
+          <rect id="Rectángulo_3703" data-name="Rectángulo 3703" width="26.583" height="26.697" transform="matrix(0.643, -0.766, 0.766, 0.643, -9.078, 10.815)" fill="url(#linear-gradient)"/>
+        </g>
+        <path id="Trazado_8509" data-name="Trazado 8509" d="M468.257,30.983h1.974c1.191,0,1.949.621,1.949,1.685a1.866,1.866,0,0,1-1.949,1.923h-1.974Zm3.4,5.965a4.289,4.289,0,0,0,3.727-4.255c0-2.9-1.974-4.493-5.157-4.493H465.1V42.785h3.157V36.939l3.923,5.846h3.659Z" transform="translate(-425.523 -25.8)"/>
+        <path id="Trazado_8510" data-name="Trazado 8510" d="M129,28.2v2.876h3.208V42.785h3.2V31.076h3.208V28.2Z" transform="translate(-118.023 -25.8)"/>
+        <path id="Trazado_8511" data-name="Trazado 8511" d="M5.038,31.557c-.953-.425-1.31-.9-1.31-1.523a1.412,1.412,0,0,1,1.54-1.285c.945.026,1.472.477,1.923,1.54L9.922,29.08A4.672,4.672,0,0,0,5.131,26C2.493,26,.545,27.727.545,30.059a4.058,4.058,0,0,0,2.638,3.778l2.042,1.021c1.14.57,1.685,1,1.685,1.83a1.619,1.619,0,0,1-1.685,1.54,2.5,2.5,0,0,1-2.374-1.855L0,37.207a5.1,5.1,0,0,0,5.2,3.8c2.783,0,4.918-1.778,4.918-4.348,0-1.974-1.072-3.276-3.114-4.2Z" transform="translate(0 -23.788)"/>
+      </g>
+      <g id="Grupo_5176-2" data-name="Grupo 5176" transform="translate(4.059 22.933)">
+        <path id="Trazado_8512" data-name="Trazado 8512" d="M51.827,271.159a1.377,1.377,0,0,0-1.106-.477,1.894,1.894,0,0,0-.034,3.761,1.4,1.4,0,0,0,1.2-.63l1.072.8a2.552,2.552,0,0,1-2.11,1.013,3.065,3.065,0,1,1,0-6.127,2.492,2.492,0,0,1,1.966.859Z" transform="translate(-47.7 -269.5)"/>
+        <path id="Trazado_8513" data-name="Trazado 8513" d="M123.5,271.2h1.285v2.178h2.5V271.2h1.285v5.837h-1.285V274.51h-2.5v2.527H123.5Z" transform="translate(-117.05 -271.055)"/>
+        <path id="Trazado_8514" data-name="Trazado 8514" d="M198.319,271.2h1.064l2.536,5.829h-1.447l-.5-1.234H197.7l-.485,1.234H195.8Zm.494,1.693-.706,1.813h1.421Z" transform="translate(-183.198 -271.055)"/>
+        <path id="Trazado_8515" data-name="Trazado 8515" d="M280.4,271.2h1.744l2.476,4.059h.017V271.2h1.285v5.837h-1.676l-2.544-4.153h-.017v4.153H280.4Z" transform="translate(-260.599 -271.055)"/>
+        <path id="Trazado_8516" data-name="Trazado 8516" d="M365.1,271.2h1.744l2.476,4.059h.017V271.2h1.285v5.837h-1.676l-2.544-4.153h-.017v4.153H365.1Z" transform="translate(-338.091 -271.055)"/>
+        <path id="Trazado_8517" data-name="Trazado 8517" d="M450.4,271.2h3.957v1.191h-2.672v1.081h2.527v1.191h-2.527v1.183h2.825v1.191H450.4Z" transform="translate(-416.133 -271.055)"/>
+        <path id="Trazado_8518" data-name="Trazado 8518" d="M517.1,271.2h1.285v4.646h2.383v1.191H517.1Z" transform="translate(-477.157 -271.055)"/>
+      </g>
+    </g>
+  </g>
+</svg>

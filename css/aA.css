@@ -1,0 +1,682 @@
+/*-------INICIA ESTILOS Anahí---------*/
+@supports (-webkit-touch-callout: none) {
+    
+    /* CSS specific to iOS devices */ 
+    
+    .card-aviso {
+        background-color: white;
+        border: 1px solid #1C2232;
+        padding: 1vmin;
+
+    }
+    .link-legales {
+        color:#1C2232;
+        text-decoration:none;
+        font-weight: bolder;
+    }
+    .link-legales:hover {
+        color: #1C8FA0;
+    }
+    
+    .a:hover{
+        color: red;
+    }
+    .iR_faqs-titulo{
+        font-size: 30px;
+        font-weight: 900;
+        color: #FFF;
+        text-shadow: 0px 5px 6px #00000096;
+        display: inline-block;
+        padding-bottom: 1rem;
+    }
+    .fondo_title {
+        background-image: url(../img/pleca_titulo.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #LogoPlayStore{
+        width: 130px;
+        margin: 0px;
+    }
+    .iR_listas{
+        text-align: center;
+        margin: 10px;
+    }
+    .btn-contact {
+        background:  #EFEEF0;
+        border: 2px solid #8659B1;
+        color: #000;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        -webkit-appearance: auto !important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        -webkit-appearance:none !important;
+    }
+    /* .btn-contact {
+        background:  rgb(200, 48, 55);
+        border: 4px solid rgb(28, 143, 160);
+        color: white;
+        font-weight: bolder;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        -webkit-appearance: auto !important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        
+        -webkit-appearance:none !important;
+    } */
+
+    /*------------Aviso Importante (Diego Pacheco)-------------*/
+
+    .DP_gray_bg {
+        background-color: #F8F8F8;
+        padding: 0em 1em;
+        max-width: 640px;
+        border-radius: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .nettvBlackLogo img {
+        width: 8em;
+    }
+    .suscriptor-text {
+        padding: 0em 2em;
+        text-align: center !important;
+    }
+
+    .Detail_Button {
+        color: #FFFFFF !important;
+        background-color: #2EA5BB;
+        border-color: transparent;
+        border-radius: 0.5em;
+        text-decoration: none !important;
+        padding: 0.2em 1em;
+    }
+    
+    @media only screen and (max-width: 500px){
+
+        .fondo_title {
+            background-image: url(../img/pleca_titulo.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-size: 0rem !important;
+        }
+        .iR_faqs-titulo{
+            font-size: 18px!important;
+            font-weight: 400;
+            color:#000000;
+            text-shadow: 0px 5px 6px #00000096;
+            display: inline-block;
+            padding-bottom: 0rem!important;
+        }
+        .iR-faq-subtitulo{
+            font-size: 16px!important;
+            color: #6463BF;
+            font-weight: normal;	
+            display: inline-block;
+        }
+
+        .btn-contact {
+            width: 60%;
+        }
+    }
+    @media only screen and (max-width: 400px){
+
+     .btn {   
+    width: 119% !important;
+    margin-left: -20px;
+    font-size: 12px !important;
+    }
+    a.link-legales.card-link.collapsed:hover {
+        color: #1C8FA0;
+      }
+    a.mailto {
+        font-size: 10px !important;
+    }  
+    }   
+    @media only screen and (max-width: 300px){
+        a.mailto {
+            font-size: 10px !important;
+        }
+    }
+  }
+
+
+
+  
+  @supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */ 
+ 
+    
+
+    .migajas {
+        list-style: none;
+    }
+    .migajas a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .container-img {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .titulo-img {
+        width: 100%;
+    }
+    .top-left {
+        position: absolute;
+        top: 20px;
+        left: 4vmin;
+        font-size: 1.875rem;
+        font-weight: 900;
+        color: #FFF;
+        text-shadow: 0px 5px 6px #00000096;
+    }
+    .aA_fondo{
+        background-size: 100% 100%;
+        color: #FFF;
+    }
+    .fondo_title {
+        background-image: url(../img/pleca_titulo.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+    .title-L {
+        position: absolute;
+        top: 20px;
+        font-size: 1.875rem;
+        font-weight: bolder;
+        font-weight: 900;
+        color: #FFF;
+        text-shadow: 0px 5px 6px #00000096;
+    }
+
+    .aA-lugPago-subtitulo{
+        font-size: 20px;
+        color: #FFF;
+        font-weight: normal;    
+        display: inline-block;
+    }
+
+
+    .iR_fondo{
+        
+        background-size: 100% 100%;
+        color: #FFF;
+    }
+    .fondo_title {
+        background-image: url(../img/pleca_titulo.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .iR_faqs-titulo{
+        font-size: 30px;
+        font-weight: 400;
+        color: #000;
+        display: inline-block;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .iR-faq-subtitulo{
+        font-size: 20px;
+        color: #6463BF;
+        font-weight: normal;	
+        display: inline-block;
+    }
+    /*------Precios de servicios-----*/
+
+    .thead-an {
+        background-color: #D73D8D ;
+        color: white;
+        width: fit-content;
+    }
+    .table-precios {
+        text-align: center;
+        border-collapse: separate;
+        border-spacing: 5px;
+    }
+    td {
+        border: 1px solid #1C2232;
+    }
+    .table-precios td {
+        padding: .35rem;
+    }
+
+    /*----------legales---------*/
+    .derechos-min {
+        text-align: justify;
+    }
+    .derechos .terminos{
+        text-align: justify;
+        width: min-content;
+    }
+    .terminos {
+        font-weight:bold;
+    }
+    .card-aviso {
+        background-color: white;
+        border: 1px solid #1C2232;
+        padding: 1vmin;
+    }
+    .btn-link {
+        color: #1C2232;
+        font-weight: bold;
+    }
+    .btn-link:hover {
+        color: #1C8FA0;
+    }
+
+    .accordion>.card:not(:last-of-type), .accordion {
+        border-bottom: 1px solid #1C2232;
+    }
+    .link-legales {
+        color:#1C2232;
+        text-decoration:none;
+        font-weight: bolder;
+    }
+    .link-legales:hover {
+        color: #1C8FA0;
+    }
+    .sub-title{
+        font-weight: 900;
+        text-decoration:underline;
+    }
+
+    /*--------- TP ------------*/
+    .tp {
+        background-color: #FFF;
+        border: 2px solid #D53E8E;
+        border-radius: 1em;
+    }
+    .tp-text {
+        margin: 3vmin;
+        text-align: center;
+        color: #000;
+    }
+
+    /*------------contacto--------*/
+    .h-form {
+        background-color: #D73D8D;
+        color: white;
+        text-align: center;
+        padding: 1vmin;
+    }
+
+    .h-form1{
+        background-color: #D9DADB;
+        color: #000000;
+        text-align: center;
+        padding: 1vmin;
+    }
+
+    .form-contacto {
+        padding: 2vmin 5vmin;
+    }
+    .form-i {
+        border-bottom: 1px solid #707070 !important;
+        border-radius: 0%;
+        border: 1px solid white;
+    }
+    a {
+        color: #C83037;
+       
+    }
+    .btn-contact {
+        background:  #EFEEF0;
+        border: 2px solid #8659B1;
+        color: #000;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        -webkit-appearance: auto !important;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        -webkit-appearance:none !important;
+    }
+    .campo-obligatorio {
+        color: #D73D8D;
+    }
+    label {
+        margin-bottom: 0;
+    }
+
+    .AtnTel h5{
+        margin-bottom: 0px;
+        color: #000;
+
+    }
+
+    .AtnTel h3 a{
+        color: #D73D8D;
+        text-decoration: none;
+
+    }
+
+    /*------------Avisos-------------*/
+    .AvAbril{
+        background-color: #CF1758;
+        border-radius: 2em 2em 0 0;
+        margin-bottom: 3%;
+    }
+
+    .AvAbril p{
+        color: #fff;
+        font-size: 1.6rem;
+    }
+
+    .AvAbriltxt{
+        color: #fff;
+
+    }
+
+    .AvAbrilDP_gray_bg {
+        background: transparent linear-gradient(90deg, #3773D3 0%, #D73D8D 100%) 0% 0% no-repeat padding-box;
+        padding: 0em;
+        max-width: 640px;
+        border-radius: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 10%);
+        -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 10%);
+    }
+
+    .AvAbrilBtn{
+        background-color: #CF1758;
+        color: #FFED17;
+        border: 2px solid #fff;
+    }
+
+    .AvAbrilBtn:hover{
+        background-color: #FFED17;
+        color: #CF1758;
+        border: 2px solid #fff;
+    }
+
+    /*------------Lugares de pago-------------*/
+
+    .pago {
+        background-color: #EFEEF0 ;
+        color: #000;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+
+    .pago h5{
+        font-size: 1rem;
+        
+    }
+
+    .lugares-pago {
+        border: 1.5px solid #CACACA;
+    }
+    .logo-column {
+        margin: 10px 0 10px 0;
+    }
+    .iR_LP, .iR_listas{
+        text-align: center;
+        margin: 10px;
+    }
+    a[rel="external"]:hover,
+    a[rel="external"]:focus,
+    a[rel="external"]:active { z-index: 49; }
+
+    a[rel="external"] .ol,
+    a[rel="external"]:link .ol {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;  
+    z-index: 50; 
+    }
+    a[rel="external"]:focus .ol,
+    a[rel="external"]:hover .ol {
+    float: right;
+    background: #fafafa;
+    width: auto;
+    height: auto;
+    border: solid 1px #fafafa;
+    margin-left: 0.5em; 
+    margin-top: 0.3em;
+    padding: 0.4em;
+    overflow: visible;
+    -moz-border-radius: 0.4em; 
+    -webkit-border-radius: 0.4em; 
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.4em grey;
+    z-index:51; 
+    }
+    #comision-pago {
+        border: 1px solid #C4C4C4;
+        padding: 7px 0 0 17px;
+        margin: 15px 20px 38px 20px;
+        color: #404040;
+        text-align: left;
+        padding: 1.2% 5px;
+    }
+    .pago-DS, .bancoppel{
+        padding: 15px 0px;
+    }
+    .bancoppel {
+        text-align: center;
+    }
+    .table-acces tbody td {
+        text-align: center;
+        border: 3px solid white;
+        background-color: #F2F2F2;
+    }
+    .table-acces thead {
+        background-color: #ED1521;
+        color: white;
+        text-align: center;
+        font-size: 11px;
+    }
+    #blank_cell {
+        background-color: white;
+        border: 0px;
+    }
+    #title-table-AC {
+        background-color: #6D6D6D;
+    }
+    .table thead th {
+        border: 2px solid white;
+    }
+    .s-comision {
+        background-color: #FAFAFA;
+        border: none;    
+        border-bottom: 1px solid black;
+        margin-left: -13px;
+        margin-right: -13px;
+    }
+
+    .table-responsive{
+        width: 100%;
+    }
+
+    #LogoPlayStore{
+        width: 130px;
+        margin: 0px;
+    }
+    a.link-legales.card-link.collapsed:hover {
+        color: #1C8FA0;
+    }
+
+    /*------------Aviso Importante (Diego Pacheco)-------------*/
+
+        .DP_gray_bg {
+            background-color: #F8F8F8;
+            padding: 0em 1em;
+            max-width: 640px;
+            border-radius: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+            -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+            -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+            box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+        }
+
+        .nettvBlackLogo img {
+            width: 8em;
+        }
+        .suscriptor-text {
+            padding: 0em 2em;
+            text-align: center !important;
+        }
+
+        .Detail_Button {
+            color: #000 !important;
+            background-color: #EFEEF0;
+            border: 2px solid #6365C0;
+            border-radius: 0.3em;
+            text-decoration: none !important;
+            padding: 0.2em 1em;
+        }
+
+    /*-------------RESPONSIVE--------------*/
+    @media only screen and (max-width: 991px) {
+        .titulo-img {
+            height: 10vmin;
+            }
+            .btn {
+                width: 100% !important;
+            }
+    }
+    
+    @media only screen and (max-width: 800px) {
+        .titulo-img {
+            height: 10vmin;
+            }
+        
+            .table-responsive{
+                width: 600px;
+                overflow-x: auto; 
+            }
+            .btn {
+                width: 100% !important;
+            }
+    }
+    
+    @media only screen and (max-width: 700px){
+        .titulo-img {
+            height: 10vmin;
+        }
+
+        .table-responsive{
+            width: 600px;
+            overflow-x: auto; 
+        }
+        .btn {
+            width: 100% !important;
+        }
+    }  
+    @media only screen and (max-width: 500px){
+        .titulo-img {
+            height: 20vmin;
+        }
+        .migajas {
+            font-size: 1rem;
+        }
+        .title-L {
+        
+            font-size: 1rem;
+        
+        }
+
+        .pago h5{
+            font-size: 100%;
+            
+        }
+        .table-responsive{
+            width: 290px;
+            overflow-x: auto; 
+        }
+
+        .aA-lugPago-subtitulo {
+            font-size: 14px;
+
+        }
+        .table-acces tbody td {
+            font-size: 0.8rem;
+        }
+        .fondo_title {
+            background-image: url(../img/pleca_titulo.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-size: 0rem !important;
+        }
+        .iR_faqs-titulo{
+            font-size: 18px!important;
+            font-weight: 400;
+            color: #000;
+            text-shadow: 0px 5px 6px #00000096;
+            display: inline-block;
+            padding-bottom: 0rem!important;
+        }
+        .iR-faq-subtitulo{
+            font-size: 16px!important;
+            color: #6463BF;
+            font-weight: normal;	
+            display: inline-block;
+        }
+        .btn {
+            width: 100% !important;
+        }
+    }
+
+    @media only screen and (max-width: 480px){
+        .btn {
+            width: 110% !important;
+        }
+        a.link-legales.card-link.collapsed:hover {
+            color: #1C8FA0;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .btn {
+            width: 119% !important;
+            margin-left: -20px;
+        }
+        a.link-legales.card-link.collapsed:hover {
+            color: #1C8FA0;
+        }
+    }
+    @media only screen and (max-width: 300px){
+        a.mailto {
+            font-size: 10px !important;
+        }
+    }
+
+}
+
+
+/*---AJUSTES HOME ---*/
+.container-logos {
+    color: white;
+}

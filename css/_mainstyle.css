@@ -1,0 +1,1378 @@
+/* --------------------Not - IOS --------------------------------------------------------- */
+
+@supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */ 
+
+/*-------INICIA HEADER---------*/
+
+@font-face {
+    font-family: 'Arial-Bold';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial-Black';
+    src: url('../fonts/Arial-Black.woff2') format('woff2'),
+        url('../fonts/Arial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+.title-pink {
+	color: #D43D8C;
+	font-family: 'Arial Black';
+	font-size: 24px;
+}
+.row{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+.nav-top{
+	background: black;
+	color: #FFF;
+	text-align: right;
+	
+	
+}
+.box_videos {
+	margin-bottom: 30px;
+	padding-top: 40px;
+}
+
+.menu-phone{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 1.0rem;
+	
+	
+}
+
+.menu-phone-movil{
+	font-family: 'Arial-Bold';
+	display: none;
+	font-size: 1.0rem;
+	
+}
+
+.menu-mail{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 16px;
+	padding-right: 1.2rem;
+}
+.menu-phone1 {
+	font-family: 'Arial-Bold';
+    display: inline-block;
+    font-size: 16px;
+}
+.menu-mail1 {
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 16px;
+	padding-right: 1.4rem;
+	color: white;
+}
+.menu-mail a{
+	color: #fff;
+}
+.mi-nettv{
+	background: #1C8FA0;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 12px;
+}
+.img-top{
+	width: 25px;
+	margin: 10px;
+}
+.logo{
+	width: 150px;
+}
+.txt_nettv{
+	margin-left: 32px;
+}
+.nav-link{
+	font-family: 'Arial';
+	margin: 0rem 2rem;
+	color: white!important;
+	font-size: 0.9rem;
+}
+.nav-contrata {
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+.contact {
+font-family: 'Arial';
+	margin: 0rem 2rem;
+	color: #ffffff!important;
+	font-size: 0.9rem;
+}
+	
+.bordes{
+	border-right: 1px solid white;
+}
+.dropdown-item{
+    border: 2px solid #000;
+    background: #FFF;
+    color: #4B4B4B;
+    font-size: 14px;
+    padding: 13px 24px;
+}
+.dropdown-item:hover{
+	background: #D63D8D;
+	color: #FFF;
+}
+.dropdown-menu{
+    border: none;
+    background: #000;
+    padding: 0;
+}
+.separa{
+	font-family: 'Arial-Bold';
+	padding: 0px 10px; 
+}
+.atn-clientes{
+	display: inline-block;
+}
+#skip-nav {
+	background: transparent linear-gradient(90deg, #3773D3 0%, #D73D8D 100%) 0% 0% no-repeat padding-box;
+	border: none;
+	border-radius: 0;
+	padding: 5px 20px;
+}
+.navbar-brand {
+	height: auto !important;
+
+}
+
+
+.BanNuevCan{
+	padding: 1% 0 3% 0;
+}
+
+.txt_banNc{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	color: #000;
+	font-weight: bold;
+	margin-top: 0;
+	text-align: center;
+}
+
+.txt_banNcColor{
+	color: #5b009c;
+}
+
+.txt_banNc02{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	color: #000;
+	font-weight: bold;
+	margin-top: 2.0rem;
+	text-align: center;
+}
+
+#btnNc{
+	background: rgb(125,106,254);
+	background: linear-gradient(0deg, rgba(125,106,254,1) 0%, rgba(169,38,245,1) 100%);
+	border: none;
+}
+
+
+
+
+
+
+/*-------TERMINA HEADER---------*/
+
+
+/* Diego Pacheco Baca */
+
+.borders-y {
+	border-top: 5px solid #D23E8F;
+	border-bottom: 5px solid #D23E8F;
+	background-color: #FAFAFA;
+}
+
+.white-box {
+    border-radius: 1.2rem;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.texto_rosa {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	color: #D43D8C;
+	font-weight: bold;
+	margin-top: 3.5rem;
+}
+
+.btn-consulta {
+	font-size: 1.7rem;
+	color: #ffffff;
+	background-color: #C72F36;
+	border-radius: 1rem;
+	border-color: transparent;
+	padding: 0.8em 2.5em;
+}
+.text-canal200 {
+	font-weight: 900;
+    font-size: 0.9em;
+    margin-top: -0.3rem;
+}
+.tiny-nettvBlack img{
+	width: 50%;
+    margin-top: -1.2em;
+
+}
+
+.device img {
+	width: 100%;
+}
+
+
+.info{
+	background: rgb(172,172,172);
+background: linear-gradient(90deg, rgba(172,172,172,1) 0%, rgba(255,255,255,0.2007177871148459) 20%, rgba(240,240,240,0.19511554621848737) 80%, rgba(172,172,172,1) 100%);
+}
+
+.bann_nuev_cana{
+	background-image:url('../img/banner_nuevos_canales/back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+/*-------INICIA FOOTER---------*/
+footer{
+	background: #1C2232;
+	color: #FFF;
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Arial';
+	font-weight: lighter;
+}
+.footer-menu {
+	padding: 20px;
+}
+
+.legal{
+	padding: 0 50px;
+	margin: 2% 0;
+}
+.menu-pie{
+	margin: 1rem 0rem 0rem 0rem;
+	font-size: .8rem;
+}
+.link-pie{
+	font-family: 'Arial';
+	font-size: 12px !important;
+	color: #FFF;
+	
+}
+li.list-item {
+    padding-bottom: 10px;
+}
+.link-pie1{
+	font-family: 'Arial';
+    font-size: 14px !important;
+    color: #FFF;
+}
+
+.link-pie:hover{
+	color: #FFF;
+}
+
+.second-v {
+	font-size: 0.7rem;
+}
+
+/*-------TERMINA FOOTER---------*/
+
+
+/*-------INICIA ACCESIBILIDAD---------*/
+
+
+  #skip-nav a:focus {
+   /* color:#303;*/
+   color: #192666;
+      border: dashed 1px;
+      background-color: #D5EAFF; /*#D5EAFF*/
+        text-decoration: underline;
+
+  }
+
+  .title-lugares-pag{
+	  margin-left: 14rem ;
+  }
+
+
+/*-------TERMINA ACCESIBILIDAD---------*/
+
+
+/*____________________RESPONSIVE__________________________*/
+@media only screen and (min-width: 768px) {
+	.atn-contrata {
+		display: block;
+	}
+	.atn-contrata-movil {
+		display:none;
+	}
+	.bajon {
+		display: none;
+	}
+}
+@media only screen and (min-width: 1439px) {
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 2.5em !important;
+		color: #D43D8C;
+		font-weight: bold;
+		margin-top: 2em !important;
+	}
+	.btn-consulta {
+		font-size: 2rem;
+		color: #ffffff;
+		background-color: #C72F36;
+		border-radius: 1rem;
+		border-color: transparent;
+		padding: 0.8em 2.5em;
+	}	
+}
+@media only screen and (min-width: 1199px) {
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 2em;
+		color: #D43D8C;
+		font-weight: bold;
+		margin-top: 5rem;
+	}
+}
+@media only screen and (max-width: 991px) {
+  .bordes {
+    border-left: none;
+    border-right: none;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width:800px) {
+	.dudas-box {
+		padding: 1.4em;
+	}
+	.white-box {
+		margin-top: 0.3em;
+	}
+	.text-tambien {
+		font-size: 0.6em;
+	}
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		color: #D43D8C;
+		font-weight: bold;
+		margin-top: 1.5rem;
+	}
+	.btn-consulta {
+		font-size: 1rem;
+	}
+	.text-canal200 {
+		font-weight: 900;
+		font-size: 0.5em;
+		margin-top: -0.3rem;
+	}
+	.tiny-nettvBlack img {
+		width: 3em;
+		margin-top: -1.7em;
+	}
+}
+@media only screen and (min-width:320px) and (max-width:680px) {
+	
+	.device img {
+		display: none;
+	}
+	.dudas-box {
+		margin: auto;
+	}
+	.white-box {
+		border: 2px solid #B24A9E;
+		width: 70%;
+		margin-bottom: 2em;
+	}
+	
+}
+@media only screen and (max-width: 700px) {
+  /* .nav-top{
+  	display: none;
+  	} */
+
+  .bajon {
+	display: block;
+	}
+
+  .menu-pie{
+	margin: 1rem;
+	}
+.atn-clientes{
+margin: 0rem 2rem;
+	}
+	.nav-toggle-right {
+		margin-right: -7em !important;
+   		margin-top: 0em !important;
+	}
+
+
+.menu-phone{
+	font-size: 0.7rem;
+	
+}
+.menu-mail{
+	font-size: 0.7rem;
+	padding-right: 1.2rem;
+}
+
+.img-top{
+	width: 20px;
+	margin: 10px 5px;
+}
+
+
+.menu-phone{
+	font-family: 'Arial-Bold';
+	display: none;
+	font-size: 1.0rem;
+	
+	
+}
+
+.menu-phone-movil{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 0.8rem;
+	
+	
+}
+	
+.menu-phone-movil a{
+	color: #fff;
+	
+}
+
+.nav-top{
+	position: fixed;
+	bottom: 0px;
+	z-index: 999;
+	margin: -10px;
+	text-align: center;
+	
+}
+.atn-contrata {
+	display: none;
+}
+
+.atn-contrata-movil {
+	display:inline-block;
+}
+.menu-phone1{
+	font-size: 14px;
+}
+.menu-mail1 {
+	font-size: 14px;
+}
+.device img {
+	display:none;
+}
+
+
+
+footer{
+	font-size: 0.7rem;
+	padding: 2rem;
+	margin-bottom: 10%;
+	
+}
+
+}
+@media only screen and (max-width: 400px) {
+	.Fr_AlignLeft{
+		padding-left: 0px;
+		margin-bottom: 40px;
+	}
+
+	.img-footer {
+		margin-bottom: 30px;
+	}
+	.legal {
+		margin-bottom: 14px;
+	}
+}
+
+/*AQUÍ EMPIEZAN LOS AJUSTES EN EL CSS*/
+/*-------INICIA BANNER CARRUSEL---------*/
+
+.Fr_CarruselBanner{
+	padding-right: 0px;
+	padding-left: 0px;
+	
+}
+
+
+#Fr_Banner01{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+
+}
+
+#Fr_Banner01 h2{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 2.500em;
+}
+
+#Fr_Banner01 h4{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 p{
+	font-family: 'Arial';
+	text-align: center;
+	font-size: 1.250em;
+}
+
+#Fr_Banner01 .logoApp{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}
+
+#Fr_Banner01 h3{
+	font-family: 'Arial-Bold';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 ol{
+	list-style: none;
+	margin: 0 auto;
+}
+
+#Fr_Banner01 ol li{
+	display: inline-block;
+	
+}
+
+
+#Fr_Banner02{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#Fr_Banner02 h2{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: center;
+	font-size: 2.000em;
+	text-shadow: 0px 6px 3px #484848;
+}
+
+.Fr_Btn {
+	background-color:#E82C3A;
+	border-radius:15px;
+	border:5px solid#1C2232;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Arial-Black';
+	font-size:17px;
+	padding:16px 33px;
+	text-decoration:none;
+}
+.Fr_Btn:hover {
+	background-color:#9f040e;
+	color:#ffffff;
+}
+.Fr_Btn {
+	position:relative;
+	top:1px;
+}
+
+#Fr_Banner02 h4{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: right;
+	font-size: 1.400em;
+	
+}
+
+#Fr_Banner02 .Fr_Canal200{
+	width: 164px;
+	height: auto;
+	float: left;
+	
+	
+}
+
+#Fr_Banner02 .DevicesApp{
+	width: 340px;
+	height: auto;
+}
+
+
+/*-------INICIA FOOTER---------*/
+footer{
+	background: #1C2232;
+	color: #FFF;
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Arial';
+	font-weight: lighter;
+}
+
+
+#Fr_FooterIcons{
+	border-left: 1px solid #CCC;
+
+	
+	
+}
+
+#Fr_FooterIcons h2{
+
+	font-family: 'Arial';
+	font-size: 1.075em;
+	text-align: left;
+	margin-top: 3.5em;
+	
+}
+
+#Fr_FooterIcons ol{
+	list-style: none;
+	float: left;
+	padding: 0;
+}
+
+#Fr_FooterIcons ol li{
+	display: inline;
+}
+
+.Fr_AlignLeft{
+	text-align: left;
+	list-style: none;
+}
+.Fr_AlignLeft1{
+	text-align: left;
+	list-style: none;
+	
+}
+.Fr_AlignLeft2{
+	text-align: left;
+	list-style: none;
+	padding: 0;
+	
+}
+
+.legal{
+
+	margin-top: 2%;
+}
+.menu-pie{
+	margin: 1rem 0rem 0rem 0rem;
+	font-size: .8rem;
+}
+.link-pie{
+	font-family: 'Arial';
+	font-size: 0.8rem;
+	color: #FFF;
+}
+.link-pie:hover{
+	color: #FFF;
+}
+
+
+}
+
+
+
+/*-------TERMINA FOOTER---------*/
+
+
+/* --------------------Yes - IOS------------------------------------------------------------ */
+@supports (-webkit-touch-callout: none){
+/* CSS specific to iOS devices */
+
+@font-face {
+    font-family: 'Arial-Bold';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial-Black';
+    src: url('../fonts/Arial-Black.woff2') format('woff2'),
+        url('../fonts/Arial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.phone-iOS {
+	color:#ffffff !important;
+}
+
+.row{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+.nav-top{
+	background: black;
+	color: #FFF !important;
+	text-align: right;
+}
+.btn-consulta {
+	font-size: 1.7rem;
+	color: #ffffff;
+	background-color: #C72F36;
+	border-radius: 1rem;
+	border-color: transparent;
+	padding: 0.8em 2.5em;
+}
+
+.menu-phone{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 1.0rem;
+	
+	
+}
+
+.menu-phone-movil{
+	font-family: 'Arial-Bold';
+	display: none;
+	font-size: 1.0rem;
+	
+}
+
+.menu-mail{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 16px;
+	padding-right: 1.2rem;
+}
+.menu-phone1 {
+	font-family: 'Arial-Bold';
+    display: inline-block;
+    font-size: 16px;
+}
+.menu-mail1 {
+	font-family: 'Arial-Bold'!important;
+	display: inline-block;
+	font-size: 16px;
+	padding-right: 1.4rem;
+	color: white !important;
+}
+.menu-mail a{
+	color: #fff;
+}
+.mi-nettv{
+	background: #1C8FA0;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 12px;
+}
+.img-top{
+	width: 25px;
+	margin: 10px 5px;
+}
+.logo{
+	width: 150px;
+}
+.nav-link{
+	font-family: 'Arial';
+	margin: 0rem 2rem;
+	color: white!important;
+	font-size: 0.9rem;
+}
+.bordes{
+	border-right: 1px solid white;
+}
+.dropdown-item{
+    border: 2px solid #000;
+    background: #FFF;
+    color: #4B4B4B;
+    font-size: 14px;
+    padding: 13px 24px;
+}
+.dropdown-item:hover{
+	background: #D63D8D;
+	color: #FFF;
+}
+.dropdown-menu{
+    border: none;
+    background: #000;
+    padding: 0;
+}
+.separa{
+	font-family: 'Arial-Bold';
+	padding: 0px 10px; 
+}
+#skip-nav {
+	background: transparent linear-gradient(90deg, #3773D3 0%, #D73D8D 100%) 0% 0% no-repeat padding-box;
+	border: none;
+	border-radius: 0;
+	padding: 5px 20px;
+}
+.atn-clientes{
+	display: inline-block;
+}
+/*-------TERMINA HEADER---------*/
+/* Diego Pacheco Baca */
+
+.borders-y {
+	border-top: 5px solid #D23E8F;
+	border-bottom: 5px solid #D23E8F;
+	background-color: #FAFAFA;
+}
+
+.white-box {
+    border-radius: 1.2rem;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.texto_rosa {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	color: #D43D8C;
+	font-weight: bold;
+	margin-top: 3.5rem;
+}
+
+
+
+.btn-consulta {
+	font-size: 1.7rem;
+	color: #ffffff;
+	background-color: #C72F36;
+	border-radius: 1rem;
+	border-color: transparent;
+	padding: 0.8em 2.5em;
+}
+.text-canal200 {
+	font-weight: 900;
+    font-size: 0.9em;
+    margin-top: -0.3rem;
+}
+.tiny-nettvBlack img{
+	width: 50%;
+    margin-top: -1.2em;
+
+}
+
+.device img {
+	width: 100%;
+}
+
+/*-------INICIA FOOTER---------*/
+footer{
+	background: #1C2232;
+	color: #FFF;
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Arial';
+	font-weight: lighter;
+}
+
+.legal{
+
+	margin-top: 2%;
+}
+.menu-pie{
+	margin: 1rem 0rem 0rem 0rem;
+	font-size: .8rem;
+}
+.link-pie{
+	font-family: 'Arial';
+	font-size: 12px !important;
+	color: #FFF;
+	
+}
+.link-pie1{
+	font-family: 'Arial';
+    font-size: 14px !important;
+    color: #FFF;
+}
+
+.link-pie:hover{
+	color: #FFF;
+}
+
+.second-v {
+	font-size: 0.7rem;
+}
+
+/*-------TERMINA FOOTER---------*/
+
+
+/*-------INICIA ACCESIBILIDAD---------*/
+
+
+  #skip-nav a:focus {
+   /* color:#303;*/
+   color: #192666;
+      border: dashed 1px;
+      background-color: #D5EAFF; /*#D5EAFF*/
+        text-decoration: underline;
+
+  }
+
+
+/*-------TERMINA ACCESIBILIDAD---------*/
+
+
+/*____________________RESPONSIVE__________________________*/
+@media only screen and (min-width: 768px) {
+	.atn-contrata {
+		display: block;
+	}
+	.atn-contrata-movil {
+		display:none;
+	}
+	.bajon {
+		display: none;
+	}
+}
+@media only screen and (min-width: 1439px) {
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 2.5em !important;
+		color: #D43D8C;
+		font-weight: bold;
+		margin-top: 2em !important;
+	}
+	.btn-consulta {
+		font-size: 2rem;
+		color: #ffffff;
+		background-color: #C72F36;
+		border-radius: 1rem;
+		border-color: transparent;
+		padding: 0.8em 2.5em;
+	}	
+}
+@media only screen and (min-width: 1199px) {
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 2em;
+		color: #D43D8C;
+		font-weight: bold;
+		margin-top: 5rem;
+	}
+}
+@media only screen and (max-width: 991px) {
+  .bordes {
+    border-left: none;
+    border-right: none;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width:800px) {
+	.dudas-box {
+		padding: 1.4em;
+	}
+	.white-box {
+		margin-top: 0.3em;
+	}
+	.text-tambien {
+		font-size: 0.6em;
+	}
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		color: #D43D8C;
+		font-weight: bold;
+		margin-top: 1.5rem;
+	}
+	.btn-consulta {
+		font-size: 1rem;
+	}
+	.text-canal200 {
+		font-weight: 900;
+		font-size: 0.5em;
+		margin-top: -0.3rem;
+	}
+	.tiny-nettvBlack img {
+		width: 3em;
+		margin-top: -1.7em;
+	}
+}
+@media only screen and (min-width:320px) and (max-width:680px) {
+	
+	.device img {
+		display: none;
+	}
+	.dudas-box {
+		margin: auto;
+	}
+	.white-box {
+		border: 2px solid #B24A9E;
+		width: 70%;
+		margin-bottom: 2em;
+	}
+	
+}
+@media only screen and (max-width: 700px) {
+
+	
+  /* .nav-top{
+  	display: none;
+  	} */
+	.nav-top{
+	background: black;
+	color: #FFF !important;		
+	}
+
+  .bajon {
+	display: block;
+	}
+
+  	.menu-pie{
+	margin: 1rem;
+	}
+	.atn-clientes{
+	margin: 0rem 2rem;
+	color: #FFFFFF !important;
+	}
+	.nav-toggle-right {
+		margin-right: -7em !important;
+   		margin-top: 0em !important;
+	}
+
+
+.menu-phone{
+	font-size: 0.7rem;
+	
+}
+.menu-mail{
+	font-size: 0.7rem;
+	padding-right: 1.2rem;
+}
+
+.img-top{
+	width: 20px;
+	margin: 10px 5px;
+}
+
+
+.menu-phone{
+	font-family: 'Arial-Bold';
+	display: none;
+	font-size: 1.0rem;
+	
+	
+}
+
+.menu-phone-movil{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 0.8rem;
+	
+	
+}
+	
+.menu-phone-movil a{
+	color: #fff;
+	
+}
+
+.nav-top{
+	position: fixed;
+	bottom: 0px;
+	z-index: 999;
+	margin: -10px;
+	text-align: center;
+	
+}
+.atn-contrata {
+	display: none;
+}
+
+.atn-contrata-movil {
+	display:inline-block;
+}
+.menu-phone1{
+	font-size: 14px;
+}
+.menu-mail1 {
+	font-size: 14px;
+}
+.device img {
+	display:none;
+}
+
+
+
+footer{
+	font-size: 0.7rem;
+	padding: 2rem;
+	margin-bottom: 10%;
+	
+}
+
+}
+@media only screen and (max-width: 400px) {
+	.Fr_AlignLeft{
+		padding-left: 0px;
+		margin-bottom: 40px;
+	}
+
+	.img-footer {
+		margin-bottom: 30px;
+	}
+	.legal {
+		margin-bottom: 14px;
+	}
+}
+
+/*AQUÍ EMPIEZAN LOS AJUSTES EN EL CSS*/
+/*-------INICIA BANNER CARRUSEL---------*/
+
+.Fr_CarruselBanner{
+	padding-right: 0px;
+	padding-left: 0px;
+	
+}
+
+
+#Fr_Banner01{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+
+}
+
+#Fr_Banner01 h2{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 2.500em;
+}
+
+#Fr_Banner01 h4{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 p{
+	font-family: 'Arial';
+	text-align: center;
+	font-size: 1.250em;
+}
+
+#Fr_Banner01 .logoApp{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}
+
+#Fr_Banner01 h3{
+	font-family: 'Arial-Bold';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 ol{
+	list-style: none;
+	margin: 0 auto;
+}
+
+#Fr_Banner01 ol li{
+	display: inline-block;
+	
+}
+
+
+#Fr_Banner02{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#Fr_Banner02 h2{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: center;
+	font-size: 2.000em;
+	text-shadow: 0px 6px 3px #484848;
+}
+
+.Fr_Btn {
+	background-color:#E82C3A;
+	border-radius:15px;
+	border:5px solid#1C2232;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Arial-Black';
+	font-size:17px;
+	padding:16px 33px;
+	text-decoration:none;
+}
+.Fr_Btn:hover {
+	background-color:#e7676f;
+	color:#ffffff;
+}
+.Fr_Btn {
+	position:relative;
+	top:1px;
+}
+
+#Fr_Banner02 h4{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: right;
+	font-size: 1.400em;
+	
+}
+
+#Fr_Banner02 .Fr_Canal200{
+	width: 164px;
+	height: auto;
+	float: left;
+	
+	
+}
+
+#Fr_Banner02 .DevicesApp{
+	width: 340px;
+	height: auto;
+}
+
+
+/*-------INICIA FOOTER---------*/
+footer{
+	background: #1C2232;
+	color: #FFF;
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Arial';
+	font-weight: lighter;
+}
+
+
+#Fr_FooterIcons{
+	border-left: 1px solid #CCC;
+
+	
+	
+}
+
+#Fr_FooterIcons h2{
+
+	font-family: 'Arial';
+	font-size: 1.075em;
+	text-align: left;
+	
+}
+
+#Fr_FooterIcons ol{
+	list-style: none;
+	float: left;
+	padding: 0;
+}
+
+#Fr_FooterIcons ol li{
+	display: inline;
+}
+
+.Fr_AlignLeft{
+	text-align: left;
+	list-style: none;
+}
+.Fr_AlignLeft1{
+	text-align: left;
+	list-style: none;
+	
+}
+.Fr_AlignLeft2{
+	text-align: left;
+	list-style: none;
+	padding: 0;
+}
+
+.legal{
+
+	margin-top: 2%;
+}
+.menu-pie{
+	margin: 1rem 0rem 0rem 0rem;
+	font-size: .8rem;
+}
+.link-pie{
+	font-family: 'Arial';
+	font-size: 0.8rem;
+	color: #FFF;
+}
+.link-pie:hover{
+	color: #FFF;
+}
+
+
+
+}
+
+.btn-contact {
+    background: #EFEEF0;
+    border: 4px solid #8659B1;
+    color: #1C2232;
+    font-weight: bolder;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    -webkit-appearance: auto !important;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none !important;
+}
+
+
+/*AQUÍ TERMINAN LOS AJUSTES EN EL CSS*/

@@ -1,0 +1,1903 @@
+/* --------------------Not - IOS --------------------------------------------------------- */
+
+@supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */ 
+
+/*-------INICIA HEADER---------*/
+
+@font-face {
+    font-family: 'Arial-Bold';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial-Black';
+    src: url('../fonts/Arial-Black.woff2') format('woff2'),
+        url('../fonts/Arial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+.title-pink {
+	color: #D43D8C;
+	font-family: 'Arial Black';
+	font-size: 24px;
+}
+.row{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+.nav-top{
+	background: #E0E0E0;
+	color: #000;
+	text-align: right;
+	padding: 0.2em;
+	
+}
+.nav-youtube{
+	display: flex;
+	justify-content:flex-end;
+	background: #000;
+	color: #fff;
+	text-align: right;
+	width: 100%;
+}
+.info-youtube{
+	padding: 1em 1em;
+	
+}
+
+.info-youtube a:hover{
+	color: #fff;
+	text-decoration: none;
+	
+}
+.img-youtube{
+	display: flex;
+	align-items: center;
+	padding:1em 1.5em;
+	margin-right: 1em;
+}
+.nav-mobile{
+	display: none;
+}
+.nav-desktop{
+	display: flex;
+	justify-content:flex-end;
+	background: #000;
+	color: #fff;
+	text-align: right;
+	width: 100%;
+	height: 40.67px;
+}
+.info-desktop{
+	padding: 0.7em 0;
+}
+.logo-youtube{
+	width: 90.52px;
+}
+.nav-desktop span{
+	font-size: 25px;
+	font-weight: 100;
+}
+.icon-nav{
+	width: 22.87px;
+}
+.box_videos {
+	margin-bottom: 30px;
+	padding-top: 40px;
+}
+
+.menu-phone{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 1.0rem;
+	
+	
+}
+
+.menu-phone-movil{
+	font-family: 'Arial-Bold';
+	display: none;
+	font-size: 1.0rem;
+	
+}
+
+.menu-phone1 {
+	font-family: 'Arial-Bold';
+    display: inline-block;
+    font-size: 16px;
+}
+.menu-mail1 {
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 15px;
+	color: #000;
+}
+.menu-mail a{
+	color: #000;
+}
+.mi-nettv{
+	background: #1C8FA0;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 12px;
+}
+.img-top{
+	width: 25px;
+	margin: 10px;
+}
+.logo{
+	width: 150px;
+}
+.txt_nettv{
+	margin-left: 32px;
+}
+.nav-link{
+	font-family: 'Arial';
+	margin: 0rem 2rem;
+	color: white!important;
+	font-size: 0.9rem;
+}
+.nav-contrata {
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.37em;
+}
+.contact {
+font-family: 'Arial';
+	margin: 0rem 2rem;
+	color: #ffffff!important;
+	font-size: 0.9rem;
+}
+	
+.bordes{
+	border-right: 1px solid white;
+}
+.dropdown-item{
+    border: 2px solid #000;
+    background: #FFF;
+    color: #4B4B4B;
+    font-size: 14px;
+    padding: 13px 24px;
+}
+.dropdown-item:hover{
+	background: #D63D8D;
+	color: #FFF;
+}
+.dropdown-menu{
+    border: none;
+    background: #000;
+    padding: 0;
+}
+.separa{
+	font-family: 'Arial';
+	padding: 0px 10px; 
+	font-size: 16px;
+}
+.atn-clientes{
+	display: inline-block;
+	font-size: 15px;
+	margin-right: 2em;
+}
+#skip-nav {
+	background: transparent linear-gradient(90deg, #3773D3 0%, #D73D8D 100%) 0% 0% no-repeat padding-box;
+	border: none;
+	border-radius: 0;
+	padding: 5px 20px;
+}
+.navbar-brand {
+	height: auto !important;
+
+}
+
+
+.BanNuevCan{
+	padding: 1% 0 3% 0;
+}
+
+.txt_banNc{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	color: #000;
+	font-weight: bold;
+	margin-top: 0;
+	text-align: center;
+}
+
+.txt_banNcColor{
+	color: #5b009c;
+}
+
+.txt_banNc02{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	color: #000;
+	font-weight: bold;
+	margin-top: 2.0rem;
+	text-align: center;
+}
+
+#btnNc{
+	background: rgb(125,106,254);
+	background: linear-gradient(0deg, rgba(125,106,254,1) 0%, rgba(169,38,245,1) 100%);
+	border: none;
+}
+
+.TitAtnCli{
+	font-size:0.9rem;
+}
+
+.TitCont{
+	font-size:1.1rem;
+}
+
+.MOVcontac{
+	color:#fff;
+	float: right;
+	font-size:0.9rem;
+}
+
+.MOVContraAl{
+	font-size:1.0rem;
+}
+/*-------TERMINA HEADER---------*/
+
+
+/* Diego Pacheco Baca */
+
+.borders-y {
+	border-top: 5px solid #D23E8F;
+	border-bottom: 5px solid #D23E8F;
+	background-color: #FAFAFA;
+}
+
+.white-box {
+    border-radius: 1.2rem;
+    padding: 0;
+    margin-top: 0.5em;
+}
+
+.texto_rosa {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	color: #D43D8C;
+	font-weight: bold;
+	margin-top: 1em;
+}
+.btn-consulta {
+	font-size: 1.7rem;
+	color: #ffffff;
+	background-color: #C72F36;
+	border-radius: 1rem;
+	border-color: transparent;
+	padding: 0.8em 2.5em;
+}
+.text-canal200 {
+	font-weight: 900;
+    font-size: 0.9em;
+    margin-top: -0.3rem;
+}
+.tiny-nettvBlack img{
+	width: 50%;
+    margin-top: -1.2em;
+
+}
+
+.device img {
+	width: 100%;
+}
+
+
+.info{
+	background: rgb(172,172,172);
+background: linear-gradient(90deg, rgba(172,172,172,1) 0%, rgba(255,255,255,0.2007177871148459) 20%, rgba(240,240,240,0.19511554621848737) 80%, rgba(172,172,172,1) 100%);
+}
+
+.bann_nuev_cana{
+	background-image:url('../img/banner_nuevos_canales/back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.carousel-youtube{
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(194,194,194,1) 100%);
+}
+
+.youtube-log{
+	margin-left: 0em;
+}
+.texto_morado{
+	font-family:'Arial-Black';
+	font-size: 1.3em;
+	text-align: center;
+	color: #5768C5;
+	font-weight: bold;
+}
+.link-youtube{
+	width: 55%;
+	margin: 1.0em;
+}
+.texto_tutoriales{
+	font-family:'Arial-Bold';
+	font-size: 1em;
+	text-align: center;
+	color: #D33F8F;
+	font-weight: bold;
+}
+
+/*-------INICIA FOOTER---------*/
+footer{
+	background: #1C2232;
+	color: #FFF;
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Arial';
+	font-weight: lighter;
+}
+.footer-menu {
+	padding: 20px;
+}
+
+.legal{
+	padding: 0 50px;
+	margin: 2% 0;
+}
+.menu-pie{
+	margin: 1rem 0rem 0rem 0rem;
+	font-size: .8rem;
+}
+.link-pie{
+	font-family: 'Arial';
+	font-size: 12px !important;
+	color: #FFF;
+	
+}
+li.list-item {
+    padding-bottom: 10px;
+}
+.link-pie1{
+	font-family: 'Arial';
+    font-size: 14px !important;
+    color: #FFF;
+}
+
+.link-pie:hover{
+	color: #FFF;
+}
+
+.second-v {
+	font-size: 0.7rem;
+}
+.youtube-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items:initial;
+	font-family: 'Arial-Bold';
+	border: 2px solid #FFF;
+	border-radius: 1em;
+	width: 33em;
+}
+.info-youtube-footer{
+	margin: 1.2em;
+	text-align: right;
+	font-size: 0.9em;
+}
+
+.info-youtube-footer a{
+	color: #fff;
+}
+
+.info-youtube-footer a:hover{
+	color: #fff;
+}
+
+.img-youtube-footer{
+	display: flex;
+	align-items: center;
+	margin: 1.2em;
+}
+/*-------TERMINA FOOTER---------*/
+
+
+/*-------INICIA ACCESIBILIDAD---------*/
+
+
+  #skip-nav a:focus {
+   /* color:#303;*/
+   color: #192666;
+      border: dashed 1px;
+      background-color: #D5EAFF; /*#D5EAFF*/
+        text-decoration: underline;
+
+  }
+
+  .title-lugares-pag{
+	  margin-left: 14rem ;
+  }
+
+
+/*-------TERMINA ACCESIBILIDAD---------*/
+
+
+/*____________________RESPONSIVE__________________________*/
+@media only screen and (min-width: 768px) {
+	.atn-contrata {
+		display: block;
+	}
+	.atn-contrata-movil {
+		display:none;
+	}
+	.bajon {
+		display: none;
+	}
+	.youtube-movil{
+		display: none;
+	}
+}
+@media only screen and (min-width: 1439px) {
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 2.5em !important;
+		color: #D43D8C;
+		font-weight: bold;
+		margin-top: 0.3em;
+	}
+	.btn-consulta {
+		font-size: 2rem;
+		color: #ffffff;
+		background-color: #C72F36;
+		border-radius: 1rem;
+		border-color: transparent;
+		padding: 0.8em 2.5em;
+	}	
+	.texto_morado{
+		font-size: 2em !important;
+	}
+	.youtube-footer{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items:initial;
+		font-family: 'Arial-Bold';
+		border: 2px solid #FFF;
+		border-radius: 1em;
+		width: 40em;
+	}
+	.info-youtube-footer{
+		margin-top:2em;
+		text-align: right;
+		font-size: 1.2em;
+	}
+	.img-youtube-footer{
+		display: flex;
+		align-items: center;
+	}
+
+}
+@media only screen and (min-width: 1199px) {
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 2em;
+		color: #D43D8C;
+		font-weight: bold;
+	}	
+}
+@media only screen and (max-width: 991px) {
+  .bordes {
+    border-left: none;
+    border-right: none;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width:800px) {
+	.dudas-box {
+		padding: 1.4em;
+	}
+	.white-box {
+		margin-top: 0.3em;
+	}
+	.text-tambien {
+		font-size: 0.6em;
+	}
+	.tiny-nettvBlack img {
+		width: 3em;
+		margin-top: -1.7em;
+	}
+	.texto_morado{
+		font-size: 1.2em;
+	}
+	.youtube-log{
+		margin-left: 6.5em;
+	}
+	.link-youtube{
+		width: 60%;
+		margin: 1em;
+	}
+	.texto_tutoriales{
+		font-family:'Arial-Bold';
+		font-size: 1em;
+		text-align: center;
+		color: #D33F8F;
+		font-weight: bold;
+		margin-bottom: 1em;
+	}
+	.youtube-footer{
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		font-family: 'Arial-Bold';
+		border: 2px solid #FFF;
+		border-radius: 1em;
+		width: 25em;
+	}
+	.info-youtube-footer{
+		text-align: left;
+		font-size: 1em;
+		margin-bottom: 0;
+	}
+	.img-youtube-footer{
+		margin-bottom: 1.5em;
+	}
+}
+@media only screen and (min-width:320px) and (max-width:680px) {
+
+	.tiny-nettvBlack img{
+		margin-top: 0.9em;
+		margin-bottom: 0.9rem;
+	}
+	.nav-desktop{
+		display: none;
+	}
+	.nav-mobile{
+		display: block;
+	}
+	.device img {
+		display: none;
+	}
+	.dudas-box {
+		margin: auto;
+	}
+	.white-box {
+		border: 2px solid #B24A9E;
+		width: 70%;
+		margin-bottom: 2em;
+	}
+	.link-youtube{
+		width: 80%;
+		margin: 0.5em 0;
+	}
+	.youtube-desktop{
+		display: none;
+	}
+	.youtube-footer{
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		font-family: 'Arial-Bold';
+		border: 2px solid #FFF;
+		border-radius: 1em;
+		width: 25em;
+	}
+	.info-youtube-footer{
+		text-align: left;
+		font-size: 1.1em;
+		margin-bottom: 0;
+	}
+	.img-youtube-footer{
+		margin-bottom: 1.5em;
+	}
+
+	.link-youtube{
+		width: 40%;
+		margin: 0.5em 0;
+	}
+
+}
+@media only screen and (max-width: 767px) {
+  /* .nav-top{
+  	display: none;
+  	} */
+.nav-desktop{
+	display: none;
+}
+.nav-mobile{
+    display: block;
+}
+.nav-youtube{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: flex-start;
+	background: #212121;
+	text-align: left;
+	font-size: 12px;
+	margin: 0;
+}
+  .bajon {
+	display: block;
+	}
+
+  .menu-pie{
+	margin: 1rem;
+	}
+.atn-clientes{
+margin: 0rem 2rem;
+	}
+	.nav-toggle-right {
+		margin-right: -7em !important;
+   		margin-top: 0em !important;
+	}
+
+
+.menu-phone{
+	font-size: 0.7rem;
+	
+}
+.menu-mail{
+	font-size: 0.7rem;
+	padding-right: 1.2rem;
+}
+
+.img-top{
+	width: 20px;
+	margin: 10px 5px;
+}
+
+
+.menu-phone{
+	font-family: 'Arial-Bold';
+	display: none;
+	font-size: 1.0rem;
+	
+	
+}
+
+.menu-phone-movil{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 0.8rem;
+	
+	
+}
+	
+.menu-phone-movil a{
+	color: #fff;
+	
+}
+
+.nav-top{
+	position: fixed;
+	bottom: 0px;
+	z-index: 999;
+	margin: -10px;
+	text-align: center;
+	
+}
+.atn-contrata {
+	display: none;
+}
+
+.atn-contrata-movil {
+	display:inline-block;
+}
+.menu-phone1{
+	font-size: 14px;
+}
+.menu-mail1 {
+	font-size: 15px;
+}
+.device img {
+	display:none;
+}
+.youtube-desktop{
+	display: none;
+}
+
+
+footer{
+	font-size: 0.7rem;
+	padding: 2rem;
+	margin-bottom: 10%;
+	
+}
+.carousel03 {
+	display: none;
+}
+.carousel04 {
+	display: none;
+}
+.hmobile{
+	height: 400px;
+}
+.texto_morado{
+	margin-top:1em;
+	font-size: 1.5em;
+}
+.texto_tutoriales {
+	font-size: 1.2em;
+}
+
+.contain-pack{
+	min-width: 200px!important;
+}
+.base-price{
+	justify-content: center!important;
+}
+.base-pack{
+	justify-content: start!important;
+}
+.base-title{
+	flex-direction: column!important;
+}
+.container-packs{
+	padding: 0 1em;
+}	
+.price-extendido,
+.price-adultos{
+	align-items: center!important;
+	justify-content: center!important;
+}
+.price-adultos p, 
+.price-extendido p {
+    text-align: center!important;
+}
+.base-pack{
+	flex-direction: column!important;
+}
+}
+@media only screen and (max-width: 400px) {
+	.Fr_AlignLeft{
+		padding-left: 0px;
+		margin-bottom: 40px;
+	}
+
+	.img-footer {
+		margin-bottom: 30px;
+	}
+	.legal {
+		margin-bottom: 14px;
+	}
+	.carousel03 {
+		display: none;
+	}
+	.texto_morado{
+		font-size: 1.1em;
+	}
+	.texto_rosa{
+		font-size: 1.3em;
+	}
+	.texto_tutoriales{
+		font-size: 1em;
+	}
+	.youtube-desktop{
+		display: none;
+	}
+	.youtube-footer{
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		font-family: 'Arial-Bold';
+		border: 2px solid #FFF;
+		border-radius: 1em;
+		width: 25em;
+	}
+	.info-youtube-footer{
+		text-align: left;
+		font-size: 1.1em;
+		margin-bottom: 0;
+	}
+	.img-youtube-footer{
+		margin-bottom: 1.5em;
+	}
+	.campanita{
+		width: 250px;
+	}
+	.suscribe{
+		width: 150px;
+	}
+	.btn-consulta{
+		font-size: 1em;
+	}
+	.white-box{
+		width: 80%;
+	}
+}
+
+/*AQUÍ EMPIEZAN LOS AJUSTES EN EL CSS*/
+/*-------INICIA BANNER CARRUSEL---------*/
+
+.Fr_CarruselBanner{
+	padding-right: 0px;
+	padding-left: 0px;
+	
+}
+
+
+#Fr_Banner01{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+
+}
+
+#Fr_Banner01 h2{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 2.500em;
+}
+
+#Fr_Banner01 h4{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 p{
+	font-family: 'Arial';
+	text-align: center;
+	font-size: 1.250em;
+}
+
+#Fr_Banner01 .logoApp{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}
+
+#Fr_Banner01 h3{
+	font-family: 'Arial-Bold';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 ol{
+	list-style: none;
+	margin: 0 auto;
+}
+
+#Fr_Banner01 ol li{
+	display: inline-block;
+	
+}
+
+
+#Fr_Banner02{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#Fr_Banner02 h2{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: center;
+	font-size: 2.000em;
+	text-shadow: 0px 6px 3px #484848;
+}
+
+.Fr_Btn {
+	background-color:#E82C3A;
+	border-radius:15px;
+	border:5px solid#1C2232;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Arial-Black';
+	font-size:17px;
+	padding:16px 33px;
+	text-decoration:none;
+}
+.Fr_Btn:hover {
+	background-color:#9f040e;
+	color:#ffffff;
+}
+.Fr_Btn {
+	position:relative;
+	top:1px;
+}
+
+#Fr_Banner02 h4{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: right;
+	font-size: 1.400em;
+	
+}
+
+#Fr_Banner02 .Fr_Canal200{
+	width: 164px;
+	height: auto;
+	float: left;
+	
+	
+}
+
+#Fr_Banner02 .DevicesApp{
+	width: 340px;
+	height: auto;
+}
+
+/*-------CAMBIOS 12-AGO-22-------*/
+
+.space{
+	background: #E0E0E0 0% 0% no-repeat padding-box;
+	height: 45px;
+}
+.base-title{
+	background: #CF1758;
+	border-radius: 20px 20px 0px 0px;
+}
+.category-title{
+	color: #000;
+	font-size: 9px;
+	font-weight: 700;
+	margin: 1em;
+}
+.circle{
+	width: 62px;
+	height: 62px;
+	box-shadow: inset 0px 0px 6px #00000029;
+    border-radius: 50px;
+	margin: 0 0.3em;
+}
+.logo-channel{
+	padding: 1.4em 0;
+    width: 60px;
+}
+.logo-channel-pack{
+	padding: 1em 0.3em;
+    width: 60px;
+}
+.channels-tv img{
+	width: 60px;
+	padding: 0 0.2em;
+}
+.channels-audio-tv img{
+	width: 70px;
+	padding: 0 0.2em;
+}
+.container-tv-abierta{
+	margin-top: 4em;
+}
+
+
+
+
+
+.container-tv-abierta_firts{
+	background: rgb(235,235,235);
+background: linear-gradient(0deg, rgba(235,235,235,1) 0%, rgba(255,254,254,1) 100%);
+}
+
+.plus{
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: -2em;
+}
+.contain-pack{
+	border-radius: 20px;
+	min-width: 420px;
+}
+.title-adultos{
+	background: #36C0C6;
+	box-shadow: 0px 3px 8px #00000017;
+    border-radius: 20px 20px 0px 0px;
+}
+.price-adultos{
+	background: #36C0C6;
+	box-shadow: 0px 3px 8px #00000017;
+    border-radius: 0px 0px 20px 20px;
+}
+.container-packs{
+	background: transparent linear-gradient(180deg, #F6F6F6 0%, #C2C2C2 100%) 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000048;
+	margin: 0;
+}
+.title-extendido{
+	background: url(../img/ext-header.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 3px 8px #00000017;
+    border-radius: 20px 20px 0px 0px;
+}
+.price-extendido{
+	background:url(../img/ext-footer.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 3px 8px #00000017;
+    border-radius: 0px 0px 20px 20px;
+}
+.title-packs{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom:0;
+	padding: 0.5em;
+}
+.price-adultos p,
+.price-extendido p{
+	font-size: 16px;
+	font-weight: 700;
+	text-align: right;
+}
+.box-packs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: inset 0px 3px 6px #00000029;
+    border-radius: 19px;
+	width: 80%;
+	padding: 1em;
+}
+/*-------INICIA FOOTER---------*/
+footer{
+	background: #1C2232;
+	color: #FFF;
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Arial';
+	font-weight: lighter;
+}
+
+
+#Fr_FooterIcons{
+	border-left: 1px solid #CCC;
+
+	
+	
+}
+
+#Fr_FooterIcons h2{
+
+	font-family: 'Arial';
+	font-size: 1.075em;
+	text-align: left;
+	margin-top: 3.5em;
+	
+}
+
+#Fr_FooterIcons ol{
+	list-style: none;
+	float: left;
+	padding: 0;
+}
+
+#Fr_FooterIcons ol li{
+	display: inline;
+}
+
+.Fr_AlignLeft{
+	text-align: left;
+	list-style: none;
+}
+.Fr_AlignLeft1{
+	text-align: left;
+	list-style: none;
+	
+}
+.Fr_AlignLeft2{
+	text-align: left;
+	list-style: none;
+	padding: 0;
+	
+}
+
+.legal{
+
+	margin-top: 2%;
+}
+.menu-pie{
+	margin: 1rem 0rem 0rem 0rem;
+	font-size: .8rem;
+}
+.link-pie{
+	font-family: 'Arial';
+	font-size: 0.8rem;
+	color: #FFF;
+}
+.link-pie:hover{
+	color: #FFF;
+}
+
+}
+
+
+/*-------TERMINA FOOTER---------*/
+
+
+/* --------------------Yes-IOS------------------------------------------------------------ */
+@supports (-webkit-touch-callout: none){
+/* CSS specific to iOS devices */
+
+@font-face {
+    font-family: 'Arial-Bold';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial-Black';
+    src: url('../fonts/Arial-Black.woff2') format('woff2'),
+        url('../fonts/Arial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.phone-iOS {
+	color:#000 !important;
+}
+
+.row{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+.nav-top{
+	background: #E0E0E0;
+	color: #000;
+	text-align: right;
+	padding: 0.2em;
+	
+}
+
+.nav-youtube{
+	display: flex;
+	justify-content:flex-end;
+	background: #000;
+	color: #fff;
+	text-align: right;
+	width: 100%;
+}
+
+.info-youtube{
+	padding: 1em 1em;	
+}
+
+.info-youtube a:hover{
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+.img-youtube{
+	display: flex;
+	align-items: center;
+	padding:1em 1.5em;
+	margin-right: 1em;
+}
+
+.nav-mobile{
+	display: none;
+}
+
+.nav-desktop{
+	display: flex;
+	justify-content:flex-end;
+	background: #000;
+	color: #fff;
+	text-align: right;
+	width: 100%;
+	height: 40.67px;
+}
+
+.info-desktop{
+	padding: 0.7em 0;
+}
+
+.logo-youtube{
+	width: 90.52px;
+}
+
+.nav-desktop span{
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.btn-consulta {
+	font-size: 1.7rem;
+	color: #ffffff;
+	background-color: #C72F36;
+	border-radius: 1rem;
+	border-color: transparent;
+	padding: 0.8em 2.5em;
+}
+
+.menu-phone{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 1.0rem;
+	
+	
+}
+
+.menu-phone-movil{
+	font-family: 'Arial-Bold';
+	display: none;
+	font-size: 1.0rem;
+	
+}
+
+.menu-mail{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 16px;
+	padding-right: 1.2rem;
+}
+.menu-phone1 {
+	font-family: 'Arial-Bold';
+    display: inline-block;
+    font-size: 16px;
+}
+.menu-mail1 {
+	font-family: 'Arial-Bold'!important;
+	display: inline-block;
+	font-size: 16px;
+	padding-right: 1.4rem;
+	color: white !important;
+}
+.menu-mail a{
+	color: #fff;
+}
+.mi-nettv{
+	background: #1C8FA0;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 12px;
+}
+.img-top{
+	width: 25px;
+	margin: 10px 5px;
+}
+.logo{
+	width: 150px;
+}
+.nav-link{
+	font-family: 'Arial';
+	margin: 0rem 2rem;
+	color: white!important;
+	font-size: 0.9rem;
+}
+.bordes{
+	border-right: 1px solid white;
+}
+.dropdown-item{
+    border: 2px solid #000;
+    background: #FFF;
+    color: #4B4B4B;
+    font-size: 14px;
+    padding: 13px 24px;
+}
+.dropdown-item:hover{
+	background: #D63D8D;
+	color: #FFF;
+}
+.dropdown-menu{
+    border: none;
+    background: #000;
+    padding: 0;
+}
+.separa{
+	font-family: 'Arial-Bold';
+	padding: 0px 10px; 
+}
+#skip-nav {
+	background: transparent linear-gradient(90deg, #3773D3 0%, #D73D8D 100%) 0% 0% no-repeat padding-box;
+	border: none;
+	border-radius: 0;
+	padding: 5px 20px;
+}
+.atn-clientes{
+	display: inline-block;
+}
+/*-------TERMINA HEADER---------*/
+/* Diego Pacheco Baca */
+
+.borders-y {
+	border-top: 5px solid #D23E8F;
+	border-bottom: 5px solid #D23E8F;
+	background-color: #FAFAFA;
+}
+
+.white-box {
+    border-radius: 1.2rem;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.texto_rosa {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	color: #D43D8C;
+	font-weight: bold;
+}
+
+.btn-consulta {
+	font-size: 1.7rem;
+	color: #ffffff;
+	background-color: #C72F36;
+	border-radius: 1rem;
+	border-color: transparent;
+	padding: 0.8em 2.5em;
+}
+.text-canal200 {
+	font-weight: 900;
+    font-size: 0.9em;
+    margin-top: -0.3rem;
+}
+.tiny-nettvBlack img{
+	width: 50%;
+    margin-top: -1.2em;
+
+}
+
+.device img {
+	width: 100%;
+}
+
+/*-------INICIA FOOTER---------*/
+footer{
+	background: #1C2232;
+	color: #FFF;
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Arial';
+	font-weight: lighter;
+}
+
+.legal{
+
+	margin-top: 2%;
+}
+.menu-pie{
+	margin: 1rem 0rem 0rem 0rem;
+	font-size: .8rem;
+}
+.link-pie{
+	font-family: 'Arial';
+	font-size: 12px !important;
+	color: #FFF;
+	
+}
+.link-pie1{
+	font-family: 'Arial';
+    font-size: 14px !important;
+    color: #FFF;
+}
+
+.link-pie:hover{
+	color: #FFF;
+}
+
+.second-v {
+	font-size: 0.7rem;
+}
+
+
+/*-------TERMINA FOOTER---------*/
+
+
+/*-------INICIA ACCESIBILIDAD---------*/
+
+
+  #skip-nav a:focus {
+   /* color:#303;*/
+   color: #192666;
+      border: dashed 1px;
+      background-color: #D5EAFF; /*#D5EAFF*/
+        text-decoration: underline;
+
+  }
+
+
+/*-------TERMINA ACCESIBILIDAD---------*/
+
+
+/*____________________RESPONSIVE__________________________*/
+@media only screen and (min-width: 768px) {
+	.atn-contrata {
+		display: block;
+	}
+	.atn-contrata-movil {
+		display:none;
+	}
+	.bajon {
+		display: none;
+	}
+	.youtube-movil{
+		display: none;
+	}
+}
+@media only screen and (min-width: 1439px) {
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 2.5em !important;
+		color: #D43D8C;
+		font-weight: bold;
+	}
+	.btn-consulta {
+		font-size: 2rem;
+		color: #ffffff;
+		background-color: #C72F36;
+		border-radius: 1rem;
+		border-color: transparent;
+		padding: 0.8em 2.5em;
+	}	
+}
+@media only screen and (min-width: 1199px) {
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 2em;
+		color: #D43D8C;
+		font-weight: bold;
+	}
+}
+@media only screen and (max-width: 991px) {
+  .bordes {
+    border-left: none;
+    border-right: none;
+	}
+	.youtube-desktop{
+		display: none;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width:800px) {
+	.dudas-box {
+		padding: 1.4em;
+	}
+	.white-box {
+		margin-top: 0.3em;
+	}
+	.text-tambien {
+		font-size: 0.6em;
+	}
+	.texto_rosa {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		color: #D43D8C;
+		font-weight: bold;
+	}
+	.btn-consulta {
+		font-size: 1rem;
+	}
+	.text-canal200 {
+		font-weight: 900;
+		font-size: 0.5em;
+		margin-top: -0.3rem;
+	}
+	.tiny-nettvBlack img {
+		width: 3em;
+		margin-top: -1.7em;
+	}
+	.youtube-movil{
+		display: none;
+	}
+	.youtube-footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:flex-end;
+		width: 20%;
+	}
+
+	.nav-desktop{
+		display: none;
+	}
+
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+	
+	.device img {
+		display: none;
+	}
+	.dudas-box {
+		margin: auto;
+	}
+	.white-box {
+		border: 2px solid #B24A9E;
+		width: 70%;
+		margin-bottom: 2em;
+	}
+	.youtube-desktop{
+		display: none;
+	}
+}
+@media only screen and (max-width: 700px) {
+
+	
+  /* .nav-top{
+  	display: none;
+  	} */
+	.nav-top{
+	background: black;
+	color: #FFF !important;		
+	}
+
+	.nav-youtube{
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items: flex-start;
+		background: #212121;
+		text-align: left;
+		font-size: 12px;
+		margin: 0;
+	}
+
+
+  .bajon {
+	display: block;
+	}
+
+  	.menu-pie{
+	margin: 1rem;
+	}
+	.atn-clientes{
+	margin: 0rem 2rem;
+	color: #FFFFFF !important;
+	}
+	.nav-toggle-right {
+		margin-right: -7em !important;
+   		margin-top: 0em !important;
+	}
+.menu-phone{
+	font-size: 0.7rem;
+	
+}
+.menu-mail{
+	font-size: 0.7rem;
+	padding-right: 1.2rem;
+}
+
+.img-top{
+	width: 20px;
+	margin: 10px 5px;
+}
+
+
+.menu-phone{
+	font-family: 'Arial-Bold';
+	display: none;
+	font-size: 1.0rem;
+	
+	
+}
+
+.menu-phone-movil{
+	font-family: 'Arial-Bold';
+	display: inline-block;
+	font-size: 0.8rem;
+	
+	
+}
+	
+.menu-phone-movil a{
+	color: #fff;
+	
+}
+
+.nav-top{
+	position: fixed;
+	bottom: 0px;
+	z-index: 999;
+	margin: -10px;
+	text-align: center;
+	
+}
+.atn-contrata {
+	display: none;
+}
+
+.atn-contrata-movil {
+	display:inline-block;
+}
+.menu-phone1{
+	font-size: 14px;
+}
+.menu-mail1 {
+	font-size: 14px;
+}
+.device img {
+	display:none;
+}
+.youtube-desktop{
+	display: none;
+}
+
+
+footer{
+	font-size: 0.7rem;
+	padding: 2rem;
+	margin-bottom: 10%;
+	
+}
+
+.info-desktop{
+	display: none;
+}
+
+.nav-desktop{
+	display: none;
+}
+
+
+}
+@media only screen and (max-width: 400px) {
+	.Fr_AlignLeft{
+		padding-left: 0px;
+		margin-bottom: 40px;
+	}
+
+	.img-footer {
+		margin-bottom: 30px;
+	}
+	.legal {
+		margin-bottom: 14px;
+	}
+
+	.youtube-desktop{
+		display: none;
+	}
+	.youtube-footer{
+		display: flex;
+		flex-direction: column;
+		justify-content:flex-start;
+		font-family: 'Arial-Bold';
+		border: 2px solid #FFF;
+		border-radius: 1em;
+		width: 25em;
+	}
+	.info-youtube-footer{
+		text-align: left;
+		font-size: 1.1em;
+		margin-bottom: 0;
+	}
+	.img-youtube-footer{
+		margin-bottom: 1.5em;
+	}
+
+	.info-desktop{
+		display: none;
+	}
+	
+
+}
+
+/*AQUÍ EMPIEZAN LOS AJUSTES EN EL CSS*/
+/*-------INICIA BANNER CARRUSEL---------*/
+
+.Fr_CarruselBanner{
+	padding-right: 0px;
+	padding-left: 0px;
+	
+}
+
+
+#Fr_Banner01{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+
+}
+
+#Fr_Banner01 h2{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 2.500em;
+}
+
+#Fr_Banner01 h4{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 p{
+	font-family: 'Arial';
+	text-align: center;
+	font-size: 1.250em;
+}
+
+#Fr_Banner01 .logoApp{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}
+
+#Fr_Banner01 h3{
+	font-family: 'Arial-Bold';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 ol{
+	list-style: none;
+	margin: 0 auto;
+}
+
+#Fr_Banner01 ol li{
+	display: inline-block;
+	
+}
+
+
+#Fr_Banner02{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#Fr_Banner02 h2{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: center;
+	font-size: 2.000em;
+	text-shadow: 0px 6px 3px #484848;
+}
+
+.Fr_Btn {
+	background-color:#E82C3A;
+	border-radius:15px;
+	border:5px solid#1C2232;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Arial-Black';
+	font-size:17px;
+	padding:16px 33px;
+	text-decoration:none;
+}
+.Fr_Btn:hover {
+	background-color:#e7676f;
+	color:#ffffff;
+}
+.Fr_Btn {
+	position:relative;
+	top:1px;
+}
+
+#Fr_Banner02 h4{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: right;
+	font-size: 1.400em;
+	
+}
+
+#Fr_Banner02 .Fr_Canal200{
+	width: 164px;
+	height: auto;
+	float: left;
+	
+	
+}
+
+#Fr_Banner02 .DevicesApp{
+	width: 340px;
+	height: auto;
+}
+
+/*-------INICIA FOOTER---------*/
+footer{
+	background: #1C2232;
+	color: #FFF;
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Arial';
+	font-weight: lighter;
+}
+
+
+#Fr_FooterIcons{
+	border-left: 1px solid #CCC;
+
+	
+	
+}
+
+#Fr_FooterIcons h2{
+
+	font-family: 'Arial';
+	font-size: 1.075em;
+	text-align: left;
+	
+}
+
+#Fr_FooterIcons ol{
+	list-style: none;
+	float: left;
+	padding: 0;
+}
+
+#Fr_FooterIcons ol li{
+	display: inline;
+}
+
+.Fr_AlignLeft{
+	text-align: left;
+	list-style: none;
+}
+.Fr_AlignLeft1{
+	text-align: left;
+	list-style: none;
+	
+}
+.Fr_AlignLeft2{
+	text-align: left;
+	list-style: none;
+	padding: 0;
+}
+
+.legal{
+
+	margin-top: 2%;
+}
+.menu-pie{
+	margin: 1rem 0rem 0rem 0rem;
+	font-size: .8rem;
+}
+.link-pie{
+	font-family: 'Arial';
+	font-size: 0.8rem;
+	color: #FFF;
+}
+.link-pie:hover{
+	color: #FFF;
+}
+
+.btn-contact {
+    background: #EFEEF0;
+    border: 4px solid #8659B1;
+    color: #1C2232;
+    font-weight: bolder;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    -webkit-appearance: auto !important;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none !important;
+}
+
+}
+/*AQUÍ TERMINAN LOS AJUSTES EN EL CSS*/

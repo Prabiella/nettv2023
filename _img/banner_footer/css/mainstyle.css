@@ -1,0 +1,210 @@
+/*-------INICIA HEADER---------*/
+
+@font-face {
+    font-family: 'Arial-Bold';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial-Black';
+    src: url('../fonts/Arial-Black.woff2') format('woff2'),
+        url('../fonts/Arial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/*AQUÍ EMPIEZAN LOS AJUSTES EN EL CSS*/
+/*-------INICIA BANNER CARRUSEL---------*/
+
+.Fr_CarruselBanner{
+	padding-right: 0px;
+	padding-left: 0px;
+	
+}
+
+
+#Fr_Banner01{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+
+}
+
+#Fr_Banner01 h2{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 2.500em;
+}
+
+#Fr_Banner01 h4{
+	font-family: 'Arial-Black';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 p{
+	font-family: 'Arial';
+	text-align: center;
+	font-size: 1.250em;
+}
+
+#Fr_Banner01 .logoApp{
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}
+
+#Fr_Banner01 h3{
+	font-family: 'Arial-Bold';
+	text-align: center;
+	font-size: 1.875em;
+}
+
+#Fr_Banner01 ol{
+	list-style: none;
+	margin: 0 auto;
+}
+
+#Fr_Banner01 ol li{
+	display: inline-block;
+	
+}
+
+
+#Fr_Banner02{
+	padding: 2%;
+	background-image: url(../img/img_banners/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#Fr_Banner02 h2{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: center;
+	font-size: 2.000em;
+	text-shadow: 0px 6px 3px #484848;
+}
+
+.Fr_Btn {
+	background-color:#E82C3A;
+	border-radius:15px;
+	border:5px solid#1C2232;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Arial-Black';
+	font-size:17px;
+	padding:16px 33px;
+	text-decoration:none;
+}
+.Fr_Btn:hover {
+	background-color:#9f040e;
+	color:#ffffff;
+}
+.Fr_Btn {
+	position:relative;
+	top:1px;
+}
+
+#Fr_Banner02 h4{
+	font-family: 'Arial-Black';
+	color: #fff;
+	text-align: right;
+	font-size: 1.400em;
+	
+}
+
+#Fr_Banner02 .Fr_Canal200{
+	width: 164px;
+	height: auto;
+	float: left;
+	
+	
+}
+
+#Fr_Banner02 .DevicesApp{
+	width: 340px;
+	height: auto;
+}
+
+
+/*-------INICIA FOOTER---------*/
+footer{
+	background: #1C2232;
+	color: #FFF;
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 2rem;
+	font-family: 'Arial';
+	font-weight: lighter;
+}
+
+
+#Fr_FooterIcons{
+	border-left: 1px solid #CCC;
+
+	
+	
+}
+
+#Fr_FooterIcons h2{
+
+	font-family: 'Arial';
+	font-size: 1.075em;
+	text-align: left;
+	margin-left: 7%;
+	
+}
+
+#Fr_FooterIcons ol{
+	list-style: none;
+	float: left;
+}
+
+#Fr_FooterIcons ol li{
+	display: inline;
+}
+
+.Fr_AlignLeft{
+	text-align: left;
+}
+
+
+.legal{
+
+	margin-top: 2%;
+}
+.menu-pie{
+	margin: 1rem 0rem 0rem 0rem;
+	font-size: .8rem;
+}
+.link-pie{
+	font-family: 'Arial';
+	font-size: 0.8rem;
+	color: #FFF;
+}
+.link-pie:hover{
+	color: #FFF;
+}
+
+/*-------TERMINA FOOTER---------*/
+
+
+/*AQUÍ TERMINAN LOS AJUSTES EN EL CSS*/
+

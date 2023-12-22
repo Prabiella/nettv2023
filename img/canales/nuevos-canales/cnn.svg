@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <filter id="Rectángulo_3581" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_5869" data-name="Grupo 5869" transform="translate(-290 -1779)">
+    <g transform="matrix(1, 0, 0, 1, 290, 1779)" filter="url(#Rectángulo_3581)">
+      <rect id="Rectángulo_3581-2" data-name="Rectángulo 3581" width="62" height="62" rx="31" fill="#fff"/>
+    </g>
+    <g id="_352_CNN_Internacional_Color" data-name="352 CNN Internacional Color" transform="translate(319.955 1810.022)">
+      <g id="Grupo_5855" data-name="Grupo 5855" transform="translate(-14.571 -14.582)">
+        <rect id="Rectángulo_3879" data-name="Rectángulo 3879" width="29.143" height="29.164" fill="#bc061b"/>
+        <path id="Trazado_9885" data-name="Trazado 9885" d="M4.249,11.238a2.221,2.221,0,0,1,2.22-2.222H8.153V7.758h-1.7a3.48,3.48,0,0,0,0,6.96H9.724a.353.353,0,0,0,.331-.328V7.944a.754.754,0,0,1,.554-.745.829.829,0,0,1,.943.451c.012.02.815,1.407,2.04,3.517l1.972,3.4c.1.175.244.258.378.222a.257.257,0,0,0,.184-.261V7.944a.758.758,0,0,1,.551-.746.83.83,0,0,1,.94.453c.012.019.723,1.244,1.891,3.261l2.123,3.659c.1.175.244.258.378.222a.256.256,0,0,0,.183-.259V6h-1.26v5.082s-2.106-3.63-2.2-3.8c-1.338-2.272-3.864-1.333-3.864.623v3.172s-2.1-3.63-2.2-3.8C11.326,5.012,8.8,5.951,8.8,7.907v5.2a.347.347,0,0,1-.348.354H6.469a2.221,2.221,0,0,1-2.22-2.222" transform="translate(1.671 3.343)" fill="#fff"/>
+        <path id="Trazado_9886" data-name="Trazado 9886" d="M23.327,5.983V14.52a.757.757,0,0,1-.554.745.785.785,0,0,1-.2.027.866.866,0,0,1-.748-.478c-.011-.02-.848-1.463-2.123-3.664-.921-1.586-1.872-3.227-1.889-3.258-.1-.173-.244-.258-.375-.222a.255.255,0,0,0-.181.261v6.59a.758.758,0,0,1-.554.745.834.834,0,0,1-.945-.451c-.009-.019-.788-1.361-1.973-3.407-.993-1.713-2.02-3.485-2.039-3.516-.1-.175-.244-.258-.378-.22a.254.254,0,0,0-.183.259v6.446a.855.855,0,0,1-.834.832H7.087a3.983,3.983,0,0,1,0-7.967h1.7V5.983h-1.7a5.242,5.242,0,0,0,0,10.483h3.3a1.9,1.9,0,0,0,2.059-2.094v-2.99s2.106,3.631,2.2,3.8c1.338,2.273,3.864,1.333,3.864-.623V11.383s2.1,3.631,2.2,3.8c1.338,2.273,3.864,1.333,3.864-.623V5.983Z" transform="translate(1.039 3.358)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
