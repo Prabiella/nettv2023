@@ -96,6 +96,7 @@
 .box_videos {
 	margin-bottom: 30px;
 	padding-top: 40px;
+	align-items: end;
 }
 
 .menu-phone{
@@ -431,6 +432,9 @@ li.list-item {
 
 /*-------TERMINA ACCESIBILIDAD---------*/
 
+.modal-content {
+	width: 100% !important;
+}
 
 /*____________________RESPONSIVE__________________________*/
 @media only screen and (min-width: 768px) {
