@@ -500,6 +500,13 @@ li.list-item {
     border-left: none;
     border-right: none;
 	}
+	#Fr_FooterIcons {
+		border-left: none !important;
+	}
+	.youtube-footer {
+		width: 210px !important;
+		padding: 0.5em;
+	}
 }
 @media only screen and (min-width: 767px) and (max-width:800px) {
 	.dudas-box {
