@@ -507,6 +507,7 @@
     }
     .table thead th {
         border: 2px solid white;
+        vertical-align: middle;
     }
     .s-comision {
         background-color: #FAFAFA;
